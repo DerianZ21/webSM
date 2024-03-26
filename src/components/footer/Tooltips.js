@@ -1,10 +1,9 @@
 import React from 'react';
-import '../..//styles/footer.css';
 
 function Tooltips() {
   return (
       <div className="tooltips">
-        <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
+        <a href="https://tiktok.com/" target="_blank" rel="noopener noreferrer">
             <img className="iconos-redes" src={process.env.PUBLIC_URL + "/images/imagesLogo/tiktok.png"} alt="Twitter" />
         </a>
         <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
