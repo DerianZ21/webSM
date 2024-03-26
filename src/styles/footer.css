@@ -1,0 +1,12 @@
+.main-footer{
+	height: 400px;
+	background-color: #1d1e29;
+}
+
+.iconos-redes{
+	filter: brightness(0) invert(1);
+	height: 20px;
+	width: auto;
+	margin-bottom: 15px;
+
+}
