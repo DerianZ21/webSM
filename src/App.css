@@ -1,4 +1,6 @@
 .App {
+  
+  background-color: #1d1e29;
   text-decoration: none;
   text-align: center;
   color:#fff ;
@@ -40,9 +42,7 @@
 }
 
 .content{
-  color: black;
-  background-color: #fff;
+  color: white;
   min-height: 600px;
 }
-
 

@@ -8,7 +8,7 @@ function Aditional() {
         <Link to="/about">
           <img className='logo-footer' src='../images/imagesLogo/SeguridadManrique.jpg' alt="Logo Seguridad Manrique" />
         </Link>
-        <p>Porque estamos seguros de los que hacemos</p>
+        <p>"Porque estamos seguros de los que hacemos"</p>
       </div>
       <div className='menu-footer'>
         <ul >

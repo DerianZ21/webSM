@@ -9,6 +9,7 @@ function Footer() {
     <div className='main-footer'>
       <div className='secundary-footer'>
         <Aditional/>
+        <hr></hr>
         <Tooltips/>
       </div>
       <Copyright/>
