@@ -2,7 +2,7 @@ import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import '../styles/carousel.css'
+import '../../styles/services/carousel.css'
 
 const Carousel = () => {
     const settings = {
@@ -12,7 +12,7 @@ const Carousel = () => {
       slidesToShow: 1,
       slidesToScroll: 1,
       autoplay: true,
-      autoplaySpeed: 2000,
+      autoplaySpeed: 2500,
       responsive: [
         {
           breakpoint: 768,
@@ -35,17 +35,20 @@ const Carousel = () => {
   
     return (
       <Slider {...settings}>
-        <div >
+        <div className='content-carousel'>
           <img className='img-carousel' src="../images/imagesServicios/central-monitoreo.webp" alt="central de monitoreo" />
         </div>
-        <div > 
+        <div className='content-carousel'> 
           <img className='img-carousel' src="../images/imagesServicios/recomendaciones.webp" alt="recomendaciones" />
         </div>
-        <div >
+        <div className='content-carousel'>
           <img  className='img-carousel' src="../images/imagesServicios/beneficios.webp" alt="beneficios" />
         </div>
-        <div >
+        <div className='content-carousel'>
           <img className='img-carousel' src="../images/imagesServicios/costos.webp" alt="costos" />
+        </div>
+        <div className='content-carousel'>
+          <img className='img-carousel' src="../images/imagesServicios/pinlet.webp" alt="pinlet" />
         </div>
       </Slider>
     );

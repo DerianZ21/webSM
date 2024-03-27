@@ -1,0 +1,46 @@
+.main-menu-scrool{
+    height: 220px;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.boton{
+    height: 90px;
+    width: 90px;
+    flex: 0 1 auto;
+    background-color: inherit;
+    border: none;
+    transition: all 0.20s;
+    cursor: pointer;
+    border-radius: 80px;
+
+}
+
+
+.boton img{
+  width: 100%; 
+  height: auto; 
+}
+
+.svg img{
+	filter: brightness(0) invert(1);
+
+}.png img{
+    border-radius: 25px;   
+}
+
+
+
+/*----------hover---------*/
+
+.boton:hover{
+    padding: 20px;
+    height: 110px;
+    width: 110px;
+    background-color: #9e0b0b;
+    border-radius: 80px;
+}
+

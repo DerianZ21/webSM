@@ -11,12 +11,16 @@
     box-shadow: 0px 0px 20px -7px #000000;
 }
 
+hr {
+	opacity: 0.2;
+}
+
 .secundary-footer{
 	margin: 20px 20px 0 20px;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	background-color: #2A2A3B;
+	background-color: #242433;
 	border-radius: 15px;
 }
 
@@ -29,17 +33,17 @@
 	display: flex;
 	justify-content: center;
 	margin: 5px;
-
 }
 
 .marca{
+	width: 140px;
 	display: flex;
 	flex-direction: column;
 	align-items: center; 
 	text-align: center;
 	justify-content: center;
-
 }
+
 .logo-footer{
 	height: 55px;
 	margin: 5px;
@@ -49,7 +53,7 @@
 }
 
 .marca p{
-	width: 150px;
+	width: 70%;
 	font-size: 10px;
 	font-style: italic;
 	text-align: center;
@@ -57,9 +61,6 @@
 
 .menu-footer{
 	min-width:85%;
-	
-	
-
 }
 
 .menu-footer ul{
@@ -69,8 +70,6 @@
 	padding: 0;		
   	align-items: flex-start;
 	text-align: left;
-	
-	
 }
 
 .menu-footer li{
@@ -94,14 +93,12 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-
 }
 
 .iconos-redes{
 	filter: brightness(0) invert(1);
 	height: 20px;
 	margin: 10px;
-
 }
 
 .iconos-redes:hover{

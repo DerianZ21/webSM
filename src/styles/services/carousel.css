@@ -1,0 +1,15 @@
+.slick-slide img {
+    margin: auto;
+    display: block;
+    width: 55%;
+	border-radius: 15px;
+}
+
+.slick-dots li button:before{
+    color: #ac6868 ;
+    font-size: 10px;
+}
+
+.slick-dots li.slick-active button:before {
+    color:#fff;
+}

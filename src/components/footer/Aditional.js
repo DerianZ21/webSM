@@ -10,6 +10,7 @@ function Aditional() {
         </Link>
         <p>"Porque estamos seguros de los que hacemos"</p>
       </div>
+      <hr></hr>
       <div className='menu-footer'>
         <ul >
           <li>
