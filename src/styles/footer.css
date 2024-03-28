@@ -4,10 +4,9 @@
 .main-footer{  
 	display: flex;
 	flex-direction: column;
-	min-height: 300px;
+	height: 300px;
 	align-items: center;
 	justify-content: center;
-	-webkit-box-shadow: 0px 0px 20px 1px #000000; 
     box-shadow: 0px 0px 20px -7px #000000;
 }
 
@@ -16,16 +15,13 @@ hr {
 }
 
 .secundary-footer{
-	margin: 20px 20px 0 20px;
+	margin: auto;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	background-color: #242433;
 	border-radius: 15px;
 }
-
-
-
 
 
 /*-------------aditional--------*/
@@ -60,7 +56,7 @@ hr {
 }
 
 .menu-footer{
-	min-width:85%;
+	margin: center;
 }
 
 .menu-footer ul{
@@ -116,8 +112,21 @@ hr {
 }
 
 
+@media (max-width: 990px) {
+
+    .secundary-footer{
+		flex-direction: column;
+	}
+}
 
 
+@media (max-width: 768px) {
 
+	.aditional{
+		flex-direction: column;
+	}
 
-
+	.menu-footer ul{
+		flex-direction: column;
+	}
+}

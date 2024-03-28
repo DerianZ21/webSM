@@ -1,7 +1,7 @@
 import React from 'react';
 import Carousel from './Carousel';
-import MenuScrool from './MenuScrool'
-import Details from './Details';
+import MenuScrool from './MenuScrool';
+import Details from './detail/Details';
 function Services() {
   return (
     <div className='main-services'>

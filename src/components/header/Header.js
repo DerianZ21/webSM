@@ -7,8 +7,10 @@ function Header() {
   return (
     <header>
       <div className='main-header'>
-        <Branding/>
-        <Navigation/>
+        <div className='secundary-header'>
+          <Branding />
+          <Navigation />
+        </div>
       </div>
     </header>
   );

@@ -1,12 +1,17 @@
 .main-header {
-	min-height: 80px;
-	margin: 0 auto;
+	min-height: 70px;
+	box-shadow: 0px 0px 20px -7px #000000;
+	align-items: center;
+}
+
+.secundary-header{
+	margin: auto;
+	width: 1000px;
+	height: 100%;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-    justify-content: center;
-	-webkit-box-shadow: 0px 0px 20px 1px #000000; 
-    box-shadow: 0px 0px 20px -7px #000000;
+	justify-content: space-between;
 }
 
 /*--------branding--------*/
@@ -16,7 +21,7 @@
 	align-items: center;
 }
 
-.logo{
+.logo {
 	height: 55px;
 	margin: 5px;
 	border: 0px solid #9e0b0b;
@@ -25,39 +30,45 @@
 
 
 .slogan {
-	font-size: 20px;
+	font-size: 18px;
 }
 
 
 /*--------------navegacion------------*/
 
 
-nav {
+.nav {
 	display: flex;
 	margin-left: 10%;
 }
 
-.menu{
+.menu-toggle {
+	display: none;
+	/* Oculto por defecto */
+	background-color: #333;
+	color: white;
+	border: none;
+	cursor: pointer;
+	padding: 10px;
+}
+
+.menu {
 	display: flex;
 	flex-direction: row;
 	text-decoration: none;
 	list-style-type: none;
-	margin: 0;
-	padding: 0;
 }
 
-  
 .menu li {
-	flex: 1; 
+	flex: 1;
 }
 
-.menu a{
+.menu a {
 	font-size: 15px;
 	color: white;
 	text-decoration: none;
-	display: block; 
-  	text-align: center;
-  
+	display: block;
+	text-align: center;
 }
 
 ul.menu li {
@@ -68,13 +79,28 @@ ul.menu li {
 	border-radius: 5px;
 }
 
-ul.menu li a {
-	display:inline-block;
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+	.menu-toggle {
+		display: block;
+		/* Mostrar el botón en dispositivos pequeños */
+	}
+
+	.menu {
+		display: none;
+		/* Ocultar el menú */
+		flex-direction: column;
+		width: 100%;
+
+		.menu.open {
+			display: flex;
+		}
+	}
+
+
+	/* --------------HOVER----------------- */
+
 }
-
-
-/* --------------HOVER----------------- */
-
 
 ul.menu li:hover {
 	background-color: #750808;

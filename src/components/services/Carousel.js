@@ -8,11 +8,11 @@ const Carousel = () => {
     const settings = {
       dots: true,
       infinite: true,
-      speed: 500,
+      speed: 700,
       slidesToShow: 1,
       slidesToScroll: 1,
       autoplay: true,
-      autoplaySpeed: 2500,
+      autoplaySpeed: 2800,
       responsive: [
         {
           breakpoint: 768,
@@ -36,7 +36,7 @@ const Carousel = () => {
     return (
       <Slider {...settings}>
         <div className='content-carousel'>
-          <img className='img-carousel' src="../images/imagesServicios/central-monitoreo.webp" alt="central de monitoreo" />
+          <img className='img-carousel' src="../images/imagesServicios/central-monitoreo1.webp" alt="central de monitoreo" />
         </div>
         <div className='content-carousel'> 
           <img className='img-carousel' src="../images/imagesServicios/recomendaciones.webp" alt="recomendaciones" />
