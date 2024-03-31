@@ -17,9 +17,9 @@ function App() {
       <Header/>
       <div className='content'>
         <Routes>
-          <Route path="/home" element={<HomePage />} /> 
-          <Route path="/about" element={<AboutPage />} />
           <Route path="/services" element={<ServicesPage />} />
+          <Route path="/" element={<HomePage />} /> 
+          <Route path="/about" element={<AboutPage />} />
           <Route path="/contacts" element={<ContactsPage />} />
         </Routes>
       </div>

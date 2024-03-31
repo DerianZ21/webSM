@@ -1,3 +1,9 @@
+.slick-slider{
+    width: 75%;
+    margin: auto;
+}
+
+
 .slick-slide img {
     margin: auto;
     display: block;
@@ -12,4 +18,26 @@
 
 .slick-dots li.slick-active button:before {
     color:#fff;
+}
+
+
+
+@media (max-width: 990px) {
+
+    .slick-slider{
+        width: 80%;
+        margin: auto;
+    }
+	
+	.slick-slide{
+        border-radius: 15px;
+    }
+    
+    
+    .slick-slide img {
+        margin: auto;
+        display: block;
+        width: 90%;
+        border-radius: 15px;
+    }
 }

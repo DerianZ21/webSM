@@ -6,17 +6,16 @@ function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <nav className='main-navegación'>
-      <button className="menu-toggle" onClick={() => setIsMenuOpen(!isMenuOpen)}>
-        -
-        -
-        -
-      </button>
-      <ul className={`menu ${isMenuOpen ? 'open' : ''}`}>
-        <li><Link to="/home">Home</Link></li>
-        <li><Link to="/about">About</Link></li>
-        <li><Link to="/services">Services</Link></li>
-        <li><Link to="/contacts">Contacts</Link></li>
+    <nav className='main-navegation'>
+
+      <ul className={`menu ${isMenuOpen ? 'open' : 'close'}`}>
+        <li id="menu-toggle" onClick={() => setIsMenuOpen(!isMenuOpen)}>
+          menu
+        </li>
+        <li ><Link to="/">Home</Link></li>
+        <li ><Link to="/about">About</Link></li>
+        <li ><Link to="/services">Services</Link></li>
+        <li ><Link to="/contacts">Contacts</Link></li>
       </ul>
     </nav>
   );
