@@ -11,7 +11,7 @@
 	height: 100%;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 
 /*--------branding--------*/
@@ -19,9 +19,10 @@
 .branding {
 	display: flex;
 	align-items: center;
+	padding-top: 5px;
 }
 
-.logo {
+#logo {
 	height: 55px;
 	margin: 5px;
 	border: 0px solid #9e0b0b;
@@ -29,9 +30,7 @@
 }
 
 
-.slogan {
-	font-size: 18px;
-}
+
 
 
 /*--------------navegacion------------*/
@@ -45,8 +44,8 @@
 
 #menu-toggle {
 	display: none;
-	background-color: #333;
 	color: white;
+	background-color: inherit;
 	border: none;
 	cursor: pointer;
 	max-height: 40px;
@@ -81,11 +80,17 @@
 	padding: 10px 0;
 }
 
+.menu li img{
+	opacity: 0.5 ;
+	height: 40px;
+}
+
 @media (max-width: 768px) {
-	
+
 	.secundary-header{
-		justify-content: space-between;
+		padding: 10px;
 	}
+	
 	.main-navegation{
 		width: 100px;
 	}
@@ -117,11 +122,15 @@
 	}
 }
 
-@media (max-width: 275px) {
+@media (max-width: 400px) {
 
 	.secundary-header{
 		flex-direction: column;
 		align-items: center;
+	}
+
+	#name-marca{
+		display: none;
 	}
 }
 

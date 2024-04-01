@@ -1,14 +1,14 @@
 import React from 'react';
 import Carousel from './Carousel';
-import MenuScrool from './MenuScrool';
-import Details from './detail/Details';
+import MenuSection from './MenuSection';
+import Sections from './Sections';
 function Services() {
   return (
     <div className='main-services'>
       <h1>NUESTROS SERVICOS</h1>
       <Carousel />
-      <MenuScrool />
-      <Details />
+      <MenuSection/>
+      <Sections />
     </div>
   );
 }

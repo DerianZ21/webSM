@@ -1,25 +1,44 @@
+
+
 .main-about{
+    padding: 20px;
     display: flex;
     flex-direction: column;
     height: 100%;
     justify-content: center;
-    align-items: center;
+    
 }
 
 /*------------presentacion-------------*/
 
 .presentation{
+    background: #fff url("../../public/images/imagenesNuestras/somos.webp") no-repeat scroll 50% 50%;
+    max-width:900px ;
+    height: 562px;
+    display: flex;
+    flex-direction: row;
     align-items: center;
-    width: 60%;
-	border-radius: 20px;
+    justify-content: space-between;
+    margin: auto;
 }
 
-.presentation img{
-    width: 100%;
+
+.presentation-text{
+    background: linear-gradient(to top, rgba(0, 0, 0, 2), transparent);
+    margin-top: auto;
+}
+
+.presentation-text p{
+    text-align: center;
+    font-style: italic;
+}
+
+.presentation-text h1{
+    text-align: center;
 }
 
 .img-nosotros{
-    width: 500px;
+    width: 400px;
 }
 
 

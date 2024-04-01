@@ -73,6 +73,7 @@ hr {
 	display: flex;
 	flex-direction: column;
 	margin: 0 auto;
+	padding: 0 70px;
 }
 
 .menu-footer li a{

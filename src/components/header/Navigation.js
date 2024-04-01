@@ -10,7 +10,7 @@ function Navigation() {
 
       <ul className={`menu ${isMenuOpen ? 'open' : 'close'}`}>
         <li id="menu-toggle" onClick={() => setIsMenuOpen(!isMenuOpen)}>
-          menu
+          <img src='../images/imagesLogo/menu.png' alt='menu-amburguesa'></img>
         </li>
         <li ><Link to="/">Home</Link></li>
         <li ><Link to="/about">About</Link></li>
