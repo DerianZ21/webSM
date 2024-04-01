@@ -1,7 +1,7 @@
 import React from 'react';
 import Navigation from './Navigation.js';
 import Branding from './Branding.js';
-import '../..//styles/header.css';
+import '../../styles/header.css';
 
 function Header() {
   return (

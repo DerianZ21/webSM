@@ -44,4 +44,19 @@
 
 
 
-/*------------información importante--------*/
+/*------------mapa estrátégico--------*/
+
+.mapa-estrategico{
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+    margin: auto;
+}
+
+.mision,
+.vision{
+    background-color: gray;
+    width: 400px;
+    height: 200px;
+    margin: 50px;
+}

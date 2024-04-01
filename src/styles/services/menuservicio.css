@@ -1,4 +1,4 @@
-.main-menu-scrool{
+.main-menu-servicio{
     height: 220px;
     max-width: 90%;
     max-width: 700px;
@@ -7,6 +7,7 @@
     align-items: center;
     margin: auto;
 }
+
 
 .boton{
     height: 70px;
@@ -29,7 +30,9 @@
 .svg img{
 	filter: brightness(0) invert(1);
 
-}.png img{
+}
+
+.png img{
     border-radius: 25px;   
 }
 
@@ -43,6 +46,10 @@
     width: 110px;
     background-color: #9e0b0b;
     border-radius: 80px;
+}
+
+.png:hover{
+    background-color: white;
 }
 
 @media (max-width: 750px) {

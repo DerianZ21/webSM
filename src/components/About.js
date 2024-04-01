@@ -18,8 +18,17 @@ function About() {
             Le garantizamos que usted recibirá un servicio continuo y confiable.</p>
         </div>
       </div>
-      <div></div>
-      <div></div>
+      <div className='mapa-estrategico'>
+        <div className='mision'>
+          <h1>Misión</h1>
+          <div></div>
+
+        </div>
+        <div className='vision'>
+          <h1>Visión</h1>
+          <div></div>
+        </div>
+      </div>
       <div></div>
     </div>
   );

@@ -1,13 +1,13 @@
 import React from 'react';
 import Carousel from './Carousel';
-import MenuSection from './MenuSection';
+import OptionsServicio from './OptionsServicio';
 import Sections from './Sections';
 function Services() {
   return (
     <div className='main-services'>
       <h1>NUESTROS SERVICOS</h1>
       <Carousel />
-      <MenuSection/>
+      <OptionsServicio/>
       <Sections />
     </div>
   );

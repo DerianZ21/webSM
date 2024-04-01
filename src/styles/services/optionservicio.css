@@ -1,0 +1,93 @@
+/*-------option--------*/
+.option{
+    padding: 20px 0;
+    display: none;
+    width: 100%;
+    background-color: #292a35;
+}
+
+.option.visible {
+    display: block; 
+}
+
+/*--------monitoreo------*/
+
+
+
+#info-monitoreo{
+    margin: auto;
+    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#info-monitoreo div{
+    display: flex;
+    flex-direction: column;
+    width: 170px;
+    align-items: center;
+}
+
+#info-monitoreo .contenedor-img-monitoreo{
+    width: 70%;
+    background-color: #9e0b0b;
+    border-radius: 100px;
+}
+
+#info-monitoreo img{
+    filter: brightness(0) invert(1);
+    width:70px;
+    margin: 20px;
+}
+
+/*--------pinlet-------*/
+
+#pinlet{
+    display: flex;
+    flex-direction: row;
+    max-width: 800px;
+    margin: auto;
+
+}
+
+#titulo-pinlet{
+    height: 60px;
+    width: 250px;
+}
+
+.texto-pinlet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.texto-pinlet p{
+    max-width: 400px;
+}
+
+.telefono{
+    position: relative;
+    height: 300px;
+    width: 160px;
+}
+
+.marco-smartphone,
+.pantalla{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%; 
+}
+
+.marco-smartphone{
+    z-index:2;
+}
+
+.pantalla{
+    z-index:1;
+}
+
+
+

@@ -116,13 +116,13 @@ function Sections() {
     },
      
     {
-      url: "../images/imagesServicios/central-monitoreo2.webp",
+      url: "../images/imagesServicios/",
       descripcion: "Descripción específica 1",
       info: <p></p>
     },
      
     {
-      url: "../images/imagesServicios/central-monitoreo2.webp",
+      url: "../images/imagesServicios/",
       descripcion: "Descripción específica 1",
       info: <p></p>
     },
