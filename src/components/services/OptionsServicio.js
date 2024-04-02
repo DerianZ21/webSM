@@ -14,25 +14,25 @@ function OptionsServiceo() {
           <div id='info-monitoreo'>
             <div>
               <div className='contenedor-img-monitoreo'>
-                <img src='../images/iconos/24-7.png' alt='47/7'></img>
+                <img src='../images/iconos-png/24-7.png' alt='47/7'></img>
               </div>
               <p>Opera 24 horas al dia, los 365 dias al año</p>
             </div>
             <div>
               <div className='contenedor-img-monitoreo'>
-                <img src='../images/iconos/camara.png' alt='camara'></img>
+                <img src='../images/iconos-png/camara.png' alt='camara'></img>
               </div>
               <p>implementación de equipos tecnologicos</p>
             </div>
             <div>
               <div className='contenedor-img-monitoreo'>
-                <img src='../images/iconos/central.png' alt='central'></img>
+                <img src='../images/iconos-png/central.png' alt='central'></img>
               </div>
               <p>Centralista durante el dia y noche</p>
             </div>
             <div>
               <div className='contenedor-img-monitoreo'>
-                <img src='../images/iconos/comunicacion.png' alt='comunicación'></img>
+                <img src='../images/iconos-png/comunicacion.png' alt='comunicación'></img>
               </div>
               <p>Comunicación directa con todo el personal de seguridad</p>
             </div>
@@ -104,8 +104,7 @@ function OptionsServiceo() {
             <div className='texto-pinlet'>
               <img id='titulo-pinlet' src='../images/imagenesNuestras/textoLogoPinlet.png' alt='pinlet'></img>
               <p>
-                Aplicación que permite gestionar los visitantes de tu conjunto 
-                residencial de una manera agil, segura y organizada
+                Gestiones las visitas en tu redidencia
               </p>
               <div className='telefono'>
                 <img className='marco-smartphone' src='../images/diseños/marco-smartphone.webp' alt='marco'></img>
@@ -113,30 +112,48 @@ function OptionsServiceo() {
               </div>
             </div>
             
-            <div id='info-monitoreo'>
+            <div id='info-pinlet'>
               <div>
-                <div className='contenedor-img'>
-                  <img src='../images/iconos/24-7.png'></img>
+                <div className='contenedor-img-pinlet'>
+                  <img src='../images/iconos-png/megafono.png' alt='megafono'></img>
                 </div>
-                <p>Opera 24 horas al dia, los 365 dias al año</p>
+                <p>Anuncio y autorización de ingreso</p>
               </div>
               <div>
-                <div className='contenedor-img'>
-                  <img src='../images/iconos/camara.png'></img>
+                <div className='contenedor-img-pinlet'>
+                  <img src='../images/iconos-png/QR.png' alt='QR'></img>
                 </div>
-                <p>implementación de equipos tecnologicos</p>
+                <p>Comparte códigos de ingreso</p>
               </div>
               <div>
-                <div className='contenedor-img'>
-                  <img src='../images/iconos/central.png'></img>
+                <div className='contenedor-img-pinlet'>
+                  <img src='../images/iconos-png/seguridad.png' alt='seguridad'></img>
                 </div>
-                <p>Centralista durante el dia y noche</p>
+                <p>Seguridad en laa funciones</p>
               </div>
               <div>
-                <div className='contenedor-img'>
-                  <img src='../images/iconos/comunicacion.png'></img>
+                <div className='contenedor-img-pinlet'>
+                  <img src='../images/iconos-png/global.png' alt='global'></img>
                 </div>
-                <p>Comunicación directa con todo el personal de seguridad</p>
+                <p>Gestiona tus visitantes desde donde estes</p>
+              </div>
+              <div>
+                <div className='contenedor-img-pinlet'>
+                  <img src='../images/iconos-png/lista.png' alt='lista'></img>
+                </div>
+                <p>Listado de visitas en tiempo real</p>
+              </div>
+              <div>
+                <div className='contenedor-img-pinlet'>
+                  <img src='../images/iconos-png/caja.png' alt='caja'></img>
+                </div>
+                <p>Registro historico de información</p>
+              </div>
+              <div>
+                <div className='contenedor-img-pinlet'>
+                  <img src='../images/iconos-png/usuarios.png' alt='usuarios'></img>
+                </div>
+                <p>Facil administración de usuarios</p>
               </div>
             </div>
           </div>
