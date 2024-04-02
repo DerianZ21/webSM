@@ -1,5 +1,5 @@
 import React from 'react';
-import "../../styles/services/menuservicio.css"
+import "../../../styles/services/menuservicio.css"
 
 function MenuServicio({onOptionClick }) {
   return (

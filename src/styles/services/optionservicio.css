@@ -12,83 +12,123 @@
 
 /*--------monitoreo------*/
 
-
-
 #info-monitoreo{
-    margin: auto;
-    max-width: 800px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-#info-monitoreo div{
     display: flex;
     flex-direction: column;
-    width: 170px;
-    align-items: center;
 }
 
-#info-monitoreo .contenedor-img-monitoreo{
+.main-info-monitoreo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.main-info-monitoreo div{
+    width: 170px;
+}
+
+.contenedor-img-monitoreo{
+    margin: auto;
+}
+
+
+
+.main-info-monitoreo .contenedor-img-monitoreo{
     width: 70%;
     background-color: #9e0b0b;
     border-radius: 100px;
 }
 
-#info-monitoreo img{
+.main-info-monitoreo img{
     filter: brightness(0) invert(1);
     width:70px;
     margin: 20px;
 }
 
+.info-extra-monitoreo{
+    margin: auto;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.monitoreo-vanguardia,
+.monitoreo-personalización {
+    margin: 20px;
+    position: relative;
+    max-width: 400px;
+    height: 400px;
+    overflow: hidden;
+    align-items: center;
+  }
+  
+.monitoreo-vanguardia::before,
+.monitoreo-personalización::before {
+    border-radius: 20px;
+    max-width: 400px;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../../../public/images/imagenesNuestras/seguridad-vanguardia.webp');
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(100%);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+.monitoreo-personalización::before{
+    background-image: url('../../../public/images/imagenesNuestras/personalizado.webp');
+}
+  
+.texto-vanguardia,
+.texto-personalizacion {
+    padding-top: 70px;
+    margin: auto;
+    position: relative;
+    color: white;
+    z-index: 1;
+}
+
+.texto-vanguardia h1,
+.texto-personalizacion h1 {
+    margin: auto;
+    
+}
+
+.texto-vanguardia p,
+.texto-personalizacion p{
+    margin: auto;
+    width: 50%;
+    font-size: 13px;
+    line-height: 2;
+}
+
+
+
 /*--------pinlet-------*/
 
-#info-pinlet{
-    max-width: 850px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding-left: 40px;
-
-}
-
-#info-pinlet div{
-    display: flex;
-    flex-direction: column;
-    width: 170px;
-    align-items: center;
-}
-
-#info-pinlet .contenedor-img-pinlet{
-    width:45%;
-    background-color: #9e0b0b;
-    border-radius: 100px;
-}
-
-#info-pinlet img{
-    filter: brightness(0) invert(1);
-    width:45px;
-    margin: 20px;
-}
-
-#info-pinlet p{
-    width:150px;
-}
 
 #pinlet{
+    background-color: #3d4751;
     display: flex;
     flex-direction: row;
     align-items: center;
     max-width: 800px;
     margin: auto;
     padding: 30px;
-
+    border-radius: 30px;
 }
 
 #titulo-pinlet{
     padding-bottom: 10px;
-    max-height: 60px;
-    max-width: 250px;
+    max-height: 95px;
 }
 
 .texto-pinlet{
@@ -130,10 +170,110 @@
     transform: translateX(2px);
 }
 
-@media (max-width: 400px) {
+#info-pinlet{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px 0 0 0;
+
+}
+
+#info-pinlet div{
+    display: flex;
+    flex-direction: column;
+    width: 170px;
+    align-items: center;
+}
+
+#info-pinlet .contenedor-img-pinlet{
+    width:50%;
+    background-color: #ef472b;
+    border-radius: 100px;
+}
+
+#info-pinlet img{
+    filter: brightness(0) invert(1);
+    width:45px;
+    margin: 20px;
+}
+
+#info-pinlet p{
+    width: 75%;
+}
+
+.descarga-pinlet{
+    max-width:325px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.descarga-pinlet a{
+    width: 100%;
+}
+
+.descarga-pinlet div{
+    background-color: #1d1e29;
+}
+
+.contenedor-img-apple img,
+.contenedor-img-google img{
+    filter: brightness(0) invert(1);
+    max-width:45px;
+    margin: 20px;
+}
+
+.contenedor-img-apple,
+.contenedor-img-google{
+    width:100%;
+}
+
+.contenedor-img-google{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px
+}
+
+.contenedor-img-apple{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px
+}
+
+.contenedor-img-apple:hover,
+.contenedor-img-google:hover{
+    background-color:white;
+}
+
+.contenedor-img-apple:hover img,
+.contenedor-img-google:hover img{
+    filter: brightness(0) invert(0);
+}
+
+
+/*--------hogar---------*/
+
+.lista-beneficios{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+}
+
+/*--------oficina-----------*/
+
+
+@media (max-width: 700px) {
     #pinlet{
         flex-direction: column;
     }
+
+    .contenedor-img-apple,
+    .contenedor-img-google{
+        max-width:200px;
+    }
+
+    .info-extra-monitoreo{
+        flex-direction: column;
+    }
+    
 }
 
 

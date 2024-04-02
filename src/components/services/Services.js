@@ -1,6 +1,6 @@
 import React from 'react';
 import Carousel from './Carousel';
-import OptionsServicio from './OptionsServicio';
+import OptionsServicio from './Option-servicio/OptionsServicio';
 import Sections from './Sections';
 function Services() {
   return (
