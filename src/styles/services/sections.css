@@ -20,7 +20,7 @@
 }
 
 .section img{
-    max-width: 250px;
+    max-width: 190px;
     border-radius: 20px;
 }
 
@@ -34,7 +34,7 @@
 /*---------card-section-------*/
 .card-section{
     display: flex;
-    max-width: 1000px;
+    max-width: 850px;
     margin: auto;;
     justify-content: space-between;
     align-items: center;
