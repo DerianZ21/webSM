@@ -1,0 +1,34 @@
+.main-description{
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.inicio{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.marca-inicio{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo-inicio{
+    margin-right: 10px;
+    height: 75px;
+    border-radius: 10px ;
+}
+
+.name-inicio{
+    height: 75px;
+}
+
+.slogan-inicio{
+    font-style: italic
+}

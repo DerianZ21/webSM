@@ -83,23 +83,33 @@ hr {
 }
 
 /*-------------tooltips--------*/
+
 .tooltips{
-	margin: 0 50px;
+	width: 125px;
+	margin-top: 20px;
+}
+
+
+
+.redes{
+	margin: auto;
 	display: flex;
-	flex-direction: column;
+	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
 }
 
 .iconos-redes{
 	filter: brightness(0) invert(1);
-	height: 20px;
+	height: 30px;
 	margin: 10px;
 }
 
 .iconos-redes:hover{
-	opacity: .7;
+	opacity: .5;
 }
+
+
 
 /*-------------copyright--------*/
 .copyright{
@@ -107,7 +117,6 @@ hr {
 	text-align: center;
 	color: white;
 	width: 100%;
-	background-color: 1d1e29;
 	margin-left: auto;
 }
 

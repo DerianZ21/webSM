@@ -56,15 +56,22 @@
 
 .card-section .text{
     width: 900px;
-    padding: 0 0 0 7%;
+    padding: 0 0 0 10px;
+    margin: 40px 0 40px 0 ;
 }
 
 .text h1{
-    font-size: 35px;
+    
+    font-size: 30px;
 }
 
-.text{
+.text p{
     font-size: 14px;
+}
+
+.text h1,
+.text p{
+    margin: 0;
 }
 
 @media (max-width: 768px) {

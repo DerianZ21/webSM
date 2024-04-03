@@ -36,16 +36,16 @@ const Carousel = () => {
     return (
       <Slider {...settings}>
         <div className='content-carousel'>
-          <img className='img-carousel' src="../images/imagesServicios/central-monitoreo1.webp" alt="central de monitoreo" />
+          <img className='img-carousel' src="../images/imagesServicios/central-monitoreo2.webp" alt="central de monitoreo" />
         </div>
         <div className='content-carousel'> 
-          <img className='img-carousel' src="../images/imagesServicios/recomendaciones.webp" alt="recomendaciones" />
+          <img className='img-carousel' src="../images/imagesServicios/recomendaciones-de-seguridad.webp" alt="recomendaciones" />
         </div>
         <div className='content-carousel'>
           <img  className='img-carousel' src="../images/imagesServicios/beneficios.webp" alt="beneficios" />
         </div>
         <div className='content-carousel'>
-          <img className='img-carousel' src="../images/imagesServicios/costos.webp" alt="costos" />
+          <img className='img-carousel' src="../images/imagesServicios/costos-servicio1.webp" alt="costos" />
         </div>
         <div className='content-carousel'>
           <img className='img-carousel' src="../images/imagesServicios/pinlet.webp" alt="pinlet" />

@@ -6,6 +6,7 @@
 
 .secundary-header{
 	margin: auto;
+	padding-top: 15px;
 	max-width: 90%;
 	width: 1000px;
 	height: 100%;
@@ -23,6 +24,7 @@
 }
 
 #logo {
+	display: none;
 	height: 55px;
 	margin: 5px;
 	border: 0px solid #9e0b0b;
@@ -89,6 +91,10 @@
 }
 
 @media (max-width: 768px) {
+
+	#logo{
+		display: block;
+	}
 
 	.secundary-header{
 		padding: 10px;

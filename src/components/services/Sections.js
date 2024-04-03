@@ -31,13 +31,8 @@ function Sections() {
     {
       url: "../images/imagesServicios/bitacora-electronica.webp",
       descripcion: "BITÁCORA ELECTRÓNICA",
-      info: <ul>
-              <li>Registro digital</li>
-              <li>Consulta de historial de visitantes</li>
-              <li>Descarga de información disponible 24/7</li>
-              <li>Búsqueda inteligente: Por cédula, nombres, placas o usuario</li>
-              <li>Software controlado por administración</li>
-            </ul>
+      info: <p>Registro de informacion de manera digital, accesible las 24 horas del dia y 
+        con todo el software controlado por administración.</p>
     },
      
     {
@@ -51,12 +46,9 @@ function Sections() {
     {
       url: "../images/imagesServicios/codigo-qr.webp",
       descripcion: "CÓDIGO QR",
-      info: <ul>
-              <li>Altos estándares de seguridad (códigos únicos y dinámicos)</li>
-              <li>Notificaciones de acceso</li>
-              <li>Trazabilidad de los invitados</li>
-              <li>Residentes administran a sus invitados</li>
-            </ul>
+      info:<p>Utiliza códigos QR para controlar el acceso a edificios, oficinas, 
+        eventos y demas areas que deseas restringir, estos pueden ser implementados en 
+        dispositivos especailes, tarjetas o de manera digital en dispositivos moviles.</p> 
     },
      
     {
@@ -67,7 +59,7 @@ function Sections() {
         Nuestro sistema automatizado de control de acceso es la solución ideal.</p>
     },
     {
-      url: "../images/imagesServicios/puertas-seguridad.webp",
+      url: "../images/imagesServicios/sistemas-incendios.webp",
       descripcion: "DETECCIÓN Y EXTINCIÓN DE INCENDIOS",
       info: <p>Con tecnología avanzada, detectamos cualquier señal de fuego en sus primeras etapas, 
         permitiendo una respuesta rápida y precisa. Además, 
@@ -75,7 +67,7 @@ function Sections() {
         extinguir el fuego de manera eficiente.</p>
     },
     {
-      url: "../images/imagesServicios/sistemas-incendios.webp",
+      url: "../images/imagesServicios/puertas-seguridad.webp",
       descripcion: "PUERTAS DE SEGURIDAD",
       info: <p>Diseñadas con los más altos estándares de calidad y resistencia, ofrecen una barrera 
         robusta contra intrusos y cualquier amenaza externa.</p>
