@@ -6,7 +6,7 @@ function Description() {
     <div className='main-description'>
       <div className='inicio'>
         <div className='marca-inicio'>
-          <img src='../images/imagesLogo/SeguridadManrique.jpg' className='logo-inicio' alt='logo'>
+          <img src='../images/imagesLogo/SeguridadManrique-sinfondo.png' className='logo-inicio' alt='logo'>
           </img>
           <img src='../images/imagesLogo/logo-texto.svg' className='name-inicio' alt='nombre de la empresa'>
           </img>
@@ -15,8 +15,10 @@ function Description() {
           <p>Porque estamos seguros de lo que hacemos</p>
         </div>
       </div>
-      <div>
-        <img src='../images/diseños/camara-seguridad.webp' className='img-inicio' alt='cámara de seguridad'></img>
+      <div className='img-inicio'>
+        <img src='../images/imagenesNuestras/fondo-inicio.webp' alt='imagen de inicio'>
+
+        </img>
       </div>
     </div>
 

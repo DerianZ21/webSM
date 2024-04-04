@@ -8,8 +8,8 @@ function Home() {
   return (
     <div className='main-home'>
       <Discription/>
-      <Customers/>
       <ProductsServices/>
+      <Customers/>
     </div>
   );
 }

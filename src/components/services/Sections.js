@@ -5,6 +5,7 @@ function Sections() {
 
   const section = [ 
     {
+      id: "sistema-cctv",
       url: "../images/imagesServicios/sistemas-cctv.webp",
       descripcion: "SISTEMA CCTV",
       info: <p>Con nuestro servicio de Sistema CCTV (Circuito cerrado de televisión), 
@@ -13,6 +14,7 @@ function Sections() {
     },
      
     {
+      id: "sistema-alarma",
       url: "../images/imagesServicios/sistemas-alarmas.webp",
       descripcion: "SISTEMA DE ALARMAS",
       info: <p>Nuestro sistema de alarma es tu mejor aliado en seguridad pasiva. 
@@ -21,6 +23,7 @@ function Sections() {
     },
      
     {
+      id: "cerco-electrico",
       url: "../images/imagesServicios/cerco-electrico.webp",
       descripcion: "CERCO ELÉCTRICO",
       info: <p>Nuestro cerco eléctrico es la solución ideal. 
@@ -29,6 +32,7 @@ function Sections() {
     },
      
     {
+      id: "bitacora-electronica",
       url: "../images/imagesServicios/bitacora-electronica.webp",
       descripcion: "BITÁCORA ELECTRÓNICA",
       info: <p>Registro de informacion de manera digital, accesible las 24 horas del dia y 
@@ -36,6 +40,7 @@ function Sections() {
     },
      
     {
+      id: "control-acceso",
       url: "../images/imagesServicios/control-acceso.webp",
       descripcion: "CONTROL DE ACCESO",
       info: <p>Capacidad de permitir o restringir la entrada mediante una 
@@ -44,6 +49,7 @@ function Sections() {
     },
      
     {
+      id: "codigo-qr",
       url: "../images/imagesServicios/codigo-qr.webp",
       descripcion: "CÓDIGO QR",
       info:<p>Utiliza códigos QR para controlar el acceso a edificios, oficinas, 
@@ -52,6 +58,7 @@ function Sections() {
     },
      
     {
+      id: "control-vehicular",
       url: "../images/imagesServicios/control-vehicular.webp",
       descripcion: "SISTEMA DE CONTROL VEHICULAR",
       info: <p>¿Desea gestionar de manera eficiente y segura el acceso de vehículos en su 
@@ -59,6 +66,7 @@ function Sections() {
         Nuestro sistema automatizado de control de acceso es la solución ideal.</p>
     },
     {
+      id: "incendios",
       url: "../images/imagesServicios/sistemas-incendios.webp",
       descripcion: "DETECCIÓN Y EXTINCIÓN DE INCENDIOS",
       info: <p>Con tecnología avanzada, detectamos cualquier señal de fuego en sus primeras etapas, 
@@ -67,6 +75,7 @@ function Sections() {
         extinguir el fuego de manera eficiente.</p>
     },
     {
+      id: "puerta-seguridad",
       url: "../images/imagesServicios/puertas-seguridad.webp",
       descripcion: "PUERTAS DE SEGURIDAD",
       info: <p>Diseñadas con los más altos estándares de calidad y resistencia, ofrecen una barrera 
@@ -79,7 +88,7 @@ function Sections() {
     <div className="main-sections">
         {section.map((item, index) => (
             <div key={index} className={`section ${index % 2 === 0 ? 'section-color1' : 'section-color2'}`}>
-                <div className={`card-section ${index % 2 === 0 ? 'card-section1' : 'card-section2'}`}>
+                <div id={item.id} className={`card-section ${index % 2 === 0 ? 'card-section1' : 'card-section2'}`}>
                     <img src={item.url} alt={item.descripcion} />
                     <div className='text'>
                         <h1>{item.descripcion}</h1>

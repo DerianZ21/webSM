@@ -1,62 +1,58 @@
 
 
-.main-about{
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    justify-content: center;
-    
-}
-
-/*------------presentacion-------------*/
-
 .presentation{
-    background: #fff url("../../public/images/imagenesNuestras/somos.webp") no-repeat scroll 50% 50%;
-    max-width:900px ;
-    height: 562px;
+    padding: 10px;
+    background-color: #242433;
+    margin: auto;
+    max-width: 900px;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    margin: auto;
+    border-radius: 0px 0px 40px 40px;
+}
+
+.img-about{
+    margin: 20px;
+    width: 86%;
+    height: 400px;
+    background-color: black;
+}
+
+.img-about img{
+    width: 86%;
+    height: auto;
+    border-radius: 15px;
 }
 
 
 .presentation-text{
-    background: linear-gradient(to top, rgba(0, 0, 0, 2), transparent);
-    margin-top: auto;
+    margin: auto;
+    width: 65%;
+    border-radius: 0 0 0 20px;
 }
-
-.presentation-text p{
-    text-align: center;
-    font-style: italic;
-}
-
-.presentation-text h1{
-    text-align: center;
-}
-
-.img-nosotros{
-    width: 400px;
-}
-
-
-
-
-/*------------mapa estrátégico--------*/
 
 .mapa-estrategico{
-    display: flex;
-    flex-direction: row;
     width: 900px;
     margin: auto;
+    display: flex;
+    flex-direction: row;
 }
 
 .mision,
 .vision{
-    background-color: gray;
-    width: 400px;
-    height: 200px;
-    margin: 50px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: #9e0b0b;
+    width: 50%;
+}
+
+
+@media (max-width: 750px) {
+
+	.presentation-text{
+        font-size: 12px;
+    }
+
+    .presentation{
+        flex-direction: column;
+    }
 }

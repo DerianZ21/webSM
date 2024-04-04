@@ -14,7 +14,7 @@ hr {
 }
 
 .secundary-footer{
-	margin: auto;
+	margin: 20px;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -40,11 +40,8 @@ hr {
 }
 
 .logo-footer{
-	height: 55px;
-	margin: 5px;
-	margin-bottom: 0;
-	border: 0px solid #9e0b0b;
-	border-radius: 0px 0px 40px 40px;
+	height: 75px;
+	margin: 10px;
 }
 
 .marca p{
@@ -117,7 +114,6 @@ hr {
 	text-align: center;
 	color: white;
 	width: 100%;
-	margin-left: auto;
 }
 
 

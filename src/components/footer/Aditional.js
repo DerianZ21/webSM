@@ -6,7 +6,7 @@ function Aditional() {
     <div className='aditional'>
       <div className='marca'>
         <Link to="/">
-          <img className='logo-footer' src='../images/imagesLogo/SeguridadManrique.jpg' alt="Logo Seguridad Manrique" />
+          <img className='logo-footer' src='../images/imagesLogo/SeguridadManrique-sinfondo.png' alt="Logo Seguridad Manrique" />
         </Link>
         <a href='http://www.pinlet.net/'>
           <img className='logo-footer' src='../images/imagesLogo/pinlet.png' alt="Logo Pinlet " />
