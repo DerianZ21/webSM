@@ -1,24 +1,29 @@
 .main-description{
     background-color: #242433;
     max-width: 900px;
-    height: 500px;
+    height: 450px;
     margin: 50px auto 40px auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     border-radius: 30px;
+    transform: translateX(-10px);
+}
+
+.img-inicio{
+    max-width: 475px;
+    transform: translateY(-10px);
+    transform: translatex(-20);
 }
 
 .img-inicio img{
-    width: 550px;
-    transform: translateY(-20px);
+    width: 100%;
     border-radius: 20px;
-    -webkit-box-shadow: 1px 3px 18px 8px rgba(0,0,0,0.57); 
-    box-shadow: 1px 3px 18px 8px rgba(0,0,0,0.57);
+    box-shadow: 0px 0px 12px 5px #00000091;
 }
 
 .inicio{
-    margin: auto 0 auto 0;
+    margin: auto;
     display: flex;
     flex-direction: column;
 }
@@ -33,15 +38,24 @@
 
 .logo-inicio{
     margin-right: 10px;
-    height: 100px;
+    max-height: 60px;
     border-radius: 10px ;
 }
 
 .name-inicio{
-    height: 85px;
+    max-height: 100px;
 }
 
 .slogan-inicio{
     font-style: italic
 }
 
+
+@media (max-width: 768px) {
+
+    .main-description{
+        flex-direction: column-reverse;
+        margin: 50px 20px 40px 20px;
+    }
+
+}
