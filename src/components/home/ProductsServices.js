@@ -40,7 +40,7 @@ function ProductsServices() {
             </li>
           </ul>
         </div>
-        <hr></hr>
+        <hr className='hr-izquierda'></hr>
         <div className='titulo-producto-servicio'>
           <Link to="/services">
             <h1>PRODUCTOS Y SERVICIOS</h1>

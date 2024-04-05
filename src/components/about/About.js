@@ -6,11 +6,12 @@ function About() {
     <div className='main-about'>
       <div className='presentation'>
         <div className='img-about'>
-          <img alt='imagen sobre nosotros'>
+          <img src='/images/imagenesNuestras/familia-empresarial.webp' alt='imagen sobre nosotros'>
           </img>
         </div>
         <div className='presentation-text'>
-          <p>Manrique Seguridad, nació hace más de 25 años, es liderada por Xavier Manrique.
+          <h1>¿Quienes somos?</h1>
+          <p>
             Durante estos años, Manrique Seguridad se ha categorizado en el mercado Ecuatoriano
             como una de las mejores empresa de seguridad.</p>
 
@@ -25,14 +26,18 @@ function About() {
         <div className='mision'>
           <h1>Misión</h1>
           <div>
-            <p></p>
+            <p>En EcoTech Innovations, nos dedicamos apasionadamente a 
+              diseñar, desarrollar y comercializar soluciones tecnológicas sustentables que no solo atiendan las necesidades actuales de nuestros usuarios, 
+              sino que también promuevan un futuro más verde y sostenible. </p>
           </div>
 
         </div>
         <div className='vision'>
           <h1>Visión</h1>
           <div>
-            <p></p>
+            <p>Aspiramos a convertirnos en sinónimo de sostenibilidad y innovación a nivel mundial. 
+              Imaginamos un futuro en el que nuestras soluciones tecnológicas sean una 
+              fuerza clave en la reducción de la huella ecológica global</p>
           </div>
         </div>
       </div>

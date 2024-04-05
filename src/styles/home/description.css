@@ -1,19 +1,15 @@
 .main-description{
     background-color: #242433;
     max-width: 900px;
-    height: 450px;
     margin: 50px auto 40px auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     border-radius: 30px;
-    transform: translateX(-10px);
 }
 
 .img-inicio{
     max-width: 475px;
-    transform: translateY(-10px);
-    transform: translatex(-20);
 }
 
 .img-inicio img{
@@ -33,17 +29,18 @@
     margin: 20px;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
 }
 
 .logo-inicio{
     margin-right: 10px;
-    max-height: 60px;
+    width: 15%;
     border-radius: 10px ;
 }
 
 .name-inicio{
-    max-height: 100px;
+    width: 70%;
 }
 
 .slogan-inicio{
@@ -51,11 +48,10 @@
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 500px) {
 
     .main-description{
         flex-direction: column-reverse;
         margin: 50px 20px 40px 20px;
     }
-
 }

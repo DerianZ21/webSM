@@ -4,7 +4,7 @@
 }
 
 .resumen-producto-servicio{
-    height: 600px;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -15,16 +15,17 @@
 }
 
 .resumen-producto-servicio li a{
+    margin: auto;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     padding: 20px;
     color: #fff;
     text-decoration: none;
+    justify-content: center;
 }
 
 .resumen-producto-servicio li a:hover{
-    color: #ac7d7d;
+    opacity: 0.5;
 }
 
 
@@ -32,9 +33,15 @@
 .titulo-producto-servicio{
     margin: auto 0 auto 0;
 }
+
 .titulo-producto-servicio a{
     color: #fff;
     text-decoration: none;
+}
+
+
+.titulo-producto-servicio a:hover{
+    opacity: 0.5;
 }
 
 .texto-producto-servicio{
@@ -85,3 +92,31 @@
 .hr-derecha{
     margin-top: 175px;
 }
+
+
+
+@media (max-width: 800px) {
+
+    .hr-derecha,
+    .hr-izquierda{
+        display: none;
+    }
+    
+    .resumen-producto-servicio{
+        flex-direction: column;
+    }
+
+
+
+    .producto-servicio-derecha ul{
+        margin-top: 0px;
+    }
+
+    .numero-producto-servicio{
+        width: 30px;
+        font-size: 28px;
+        margin: auto 10px auto 10px;
+    }
+    
+}
+

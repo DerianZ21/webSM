@@ -3,7 +3,8 @@ import React from 'react';
 function Copyright() {
   return (
     <div className='copyright'>
-      <p>copyright ManriqueSeguridad© 2024 todos los derechos reservados</p>
+      <p>copyright ManriqueSeguridad© 2024</p>
+      <i>todos los derechos reservados</i>
     </div>
   );
 }

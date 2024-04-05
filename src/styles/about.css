@@ -8,13 +8,12 @@
     display: flex;
     flex-direction: row;
     border-radius: 0px 0px 40px 40px;
+    box-shadow: 0px 10px 25px 0.2px #00000091;
 }
 
 .img-about{
     margin: 20px;
     width: 86%;
-    height: 400px;
-    background-color: black;
 }
 
 .img-about img{
@@ -31,18 +30,47 @@
 }
 
 .mapa-estrategico{
-    width: 900px;
-    margin: auto;
+    margin: 20px;
+    background-image: url("../../public/images/imagenesNuestras/fondo-mision-vision.webp");
+    background-size: cover;
+    max-width: 1000px;
+    height: 450px;
+    margin: 20px auto 20px auto;
+    border-radius: 30px;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    box-shadow: 0px 12px 25px 0.2px #00000091;
+    justify-content: space-around;
 }
 
 .mision,
 .vision{
     margin: 10px;
-    border-radius: 20px;
-    background-color: #9e0b0b;
-    width: 50%;
+    border-radius: 40px;
+    backdrop-filter: blur(7px);
+    background-color: #0000004f;
+    width: 30%;
+    height: 70%;
+}
+
+.mision p,
+.vision p{
+    margin: auto;
+    width: 75%;
+}
+
+@media (max-width: 950px) {
+
+    .mapa-estrategico{
+        flex-direction: column;
+    }
+
+    .mision,
+    .vision{
+        width: 60%;
+    }
+
 }
 
 
@@ -54,5 +82,16 @@
 
     .presentation{
         flex-direction: column;
+    }
+
+    .mision,
+    .vision{
+        width: 95%;
+    }
+
+    .mision p,
+    .vision p{
+        margin: auto;
+        width: 85%;
     }
 }

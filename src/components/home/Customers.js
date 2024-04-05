@@ -4,7 +4,7 @@ import '../../styles/home/customers.css'
 function Customers() {
 
   const logos = [
-    { src: '/images/logos-empresas/coca-cola.png', alt: 'Logo 1'},
+    { src: '/images/logos-empresas/coca-cola.png', alt: 'Logo 1', link: ''},
     { src: '/images/logos-empresas/pepsi.webp', alt: 'Logo 1' },
     { src: '/images/logos-empresas/comandato.png', alt: 'Logo 1' },
     { src: '/images/logos-empresas/deprati.png', alt: 'Logo 1' },
@@ -30,7 +30,7 @@ function Customers() {
       <div className='empresas'>
         {logos.map((logo, index) => (
           <div key={index} className="logo-empresa">
-            <a href=''>
+            <a href={logos.link}>
               <img src={logo.src} alt={logo.alt}/>
             </a>
           </div>
