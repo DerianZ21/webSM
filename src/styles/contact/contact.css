@@ -1,4 +1,5 @@
 .main-contact {
+    margin: 20px;
     display: flex;
     flex-direction: column;
 }
@@ -8,6 +9,11 @@
     flex-direction: row;
     justify-content: center;
     gap: 30px;
+}
+
+.top-contact h1 {
+    margin: 0;
+    padding: 0;
 }
 
 @media (max-width: 750px) {

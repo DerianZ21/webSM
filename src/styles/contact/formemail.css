@@ -1,8 +1,64 @@
-.main-form-email{
+.main-form-email {
     margin: auto;
-    max-width: 850px;
+    width: 850px;
+    justify-content: center;
 }
 
-.main-form-email form div{
-    justify-content: start;
+.container-form{
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px 0 20px 0;
+    background-color: #242433;
+    border-radius: 20px;
+}
+
+.container-form form{
+    margin: auto;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.container-form form label{
+    font-size: 18px;
+}
+
+.container-form form button{
+    font-size: 20px;
+    margin: 15px;
+    color: white;
+    width: 20%;
+    height: 50px;
+    background-color: #9e0b0b ;
+    border: none;
+    border-radius: 10px;
+}
+
+.container-form form button:active{
+    color: #9e0b0b;
+    background-color: white ;
+}
+
+
+
+
+
+.container-form form div{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container-form form div input{
+    border: none;
+    width: 40%;
+    height: 30px;
+    border-radius: 15px;
+}
+
+.container-form form div textarea{
+    border: none;
+    width: 50%;
+    height: 100PX;
+    border-radius: 15px;
 }
