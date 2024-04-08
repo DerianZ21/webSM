@@ -17,8 +17,7 @@ function Map() {
 
     return (
         <div className='main-map'>
-            <h1>Donde nos ubicamos?</h1>
-            <MapContainer center={centroMapa} zoom={20} style={{ height: '80%', width: '100%', borderRadius: '20px' }} >
+            <MapContainer center={centroMapa} zoom={20} style={{ height: '80%', width: '100%', borderRadius: '20px', margin: 'auto' }} >
                 <TileLayer
                     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                     attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'

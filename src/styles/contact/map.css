@@ -1,5 +1,21 @@
 .main-map{
     height: 600px;
     width: 600px;
+    align-content: center;
 }
+
+@media (max-width: 1000px) {
+    .main-map{
+        max-width: 400px;
+        margin: auto;
+    }
+}
+
+
+@media (max-width: 450px) {
+    .main-map{
+        max-width: 325px;
+    }
+}
+
 

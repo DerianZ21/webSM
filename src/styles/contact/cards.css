@@ -1,0 +1,45 @@
+.main-cards{
+    padding: 10px;
+    background-color: #242433;
+    border-radius: 30px;
+    margin: auto 0 auto 0;
+}
+
+.datos-contact{
+    border-radius: 20px;
+    padding: 5px;
+    transition: background-color 0.25s ;
+}
+
+
+.datos-contact:hover{
+    background-color:#36030325  ;
+}
+
+
+.dato-cargo{
+    font-size: 12px;
+}
+
+.dato-nombre{
+    font-size: 20px;
+}
+
+
+.icono-contacto{
+	filter: brightness(0) invert(1);
+	height: 15px;
+    margin: auto 10px auto 0 ;
+}
+
+
+.info-numero,
+.info-email{
+    display: flex;
+    flex-direction: row;
+}
+
+.info-numero p,
+.info-email p{
+    font-size: 15px;
+}

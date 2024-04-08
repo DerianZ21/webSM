@@ -1,41 +1,18 @@
-.main-contact{
-    display: flex;
-    flex-direction: row;
-    max-width: 900px;
-    margin: auto;
-    justify-content: center;
-}
-
-.contactos{
-    margin: auto;
-    height: 70%;
+.main-contact {
     display: flex;
     flex-direction: column;
-    background-color: #242433;
-    border-radius: 30px;
 }
 
-
-
-
-.dato-cargo{
-    font-size: 10px;
-}
-
-.dato-nombre{
-    font-size: 20px;
-}
-
-
-.icono-contacto{
-	filter: brightness(0) invert(1);
-	height: 20px;
-    margin: auto 10px auto 0 ;
-}
-
-
-.info-numero,
-.info-email{
+.top-contact {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+@media (max-width: 750px) {
+    .top-contact {
+        flex-direction: column-reverse;
+    }
+
 }

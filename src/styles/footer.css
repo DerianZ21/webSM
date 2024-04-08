@@ -103,11 +103,16 @@ hr {
 }
 
 .icono-whatsapp{
+	transition: all 0.5s;
 	height: 80px;
 	position: fixed;
   	bottom: 40px; 
   	right: 40px;
   	z-index: 1000;
+}
+
+.icono-whatsapp:hover{
+	height: 90px;
 }
 
 

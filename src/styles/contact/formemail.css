@@ -1,0 +1,8 @@
+.main-form-email{
+    margin: auto;
+    max-width: 850px;
+}
+
+.main-form-email form div{
+    justify-content: start;
+}
