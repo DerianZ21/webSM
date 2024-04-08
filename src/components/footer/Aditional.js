@@ -6,25 +6,29 @@ function Aditional() {
     <div className='aditional'>
       <div className='marca'>
         <Link to="/">
-          <img className='logo-footer' src='../images/imagesLogo/SeguridadManrique-sinfondo.png' alt="Logo Seguridad Manrique" />
+          <img className='logo-footer logo-footer-MS' src='../images/imagesLogo/logo-texto.svg' alt="Logo Seguridad Manrique" />
         </Link>
         <a href='http://www.pinlet.net/'>
-          <img className='logo-footer' src='../images/imagesLogo/pinlet.png' alt="Logo Pinlet " />
+          <img className='logo-footer logo-footer-pinlet' src='../images/imagesLogo/pinlet-texto.svg' alt="Logo Pinlet " />
         </a>
       </div>
-      <hr></hr>
       <div className='menu-footer'>
         <ul >
           <li>
-            <p>CONTACTOS</p>
+            <h3>CONTACTOS</h3>
+            <hr></hr>
             <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">info@pinlet.net </a>
-            <p>+593939858060 </p>
-            <a href="https://www.google.com/maps/@-2.1731576,-79.8784404,16z?entry=ttu" 
-              target="_blank" 
-              rel="noopener noreferrer">Ecuador, Guayaquil.</a>
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">+593939858060</a>
+            <a href="https://www.google.com/maps/@-2.1731576,-79.8784404,16z?entry=ttu"
+              target="_blank"
+              rel="noopener noreferrer">
+              <img className='icono icono-ubicacion' src='/images/iconosSVG/ubicacion.svg' alt='icono de ubicacion'></img>
+              <p>Ecuador, Guayaquil.</p>
+            </a>
           </li>
           <li>
-            <p>SERVICIO AL CLIENTE</p>
+            <h3>SERVICIO AL CLIENTE</h3>
+            <hr></hr>
             <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">pinletdev64pinlet.net</a>
             <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">+593968253695</a>
           </li>
