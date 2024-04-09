@@ -4,7 +4,7 @@
 }
 
 
-.slick-slide img {
+.slick-slide .img-carousel {
     margin: auto;
     display: block;
     width: 750px;

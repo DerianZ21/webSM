@@ -1,7 +1,8 @@
 .main-header {
 	min-height: 70px;
-	box-shadow: 0px 0px 20px -7px #000000;
 	align-items: center;
+	background-color: inherit;
+	color: var(--color-fuente);
 }
 
 .secundary-header{
@@ -24,11 +25,16 @@
 	border-radius: 5px;
 }
 
-#logo {
+.logo {
 	display: none;
 	height: 55px;
 	margin: 5px;
 	border-radius: 0px 0px 40px 40px;
+}
+
+.name-marca{
+	filter: var(--color-icono);
+	height: 45px;
 }
 
 
@@ -55,7 +61,7 @@
 }
 
 .icon-menu{
-	filter: brightness(0) invert(1);
+	filter: var(--color-icono);
 }
 
 .menu {
@@ -69,7 +75,8 @@
 
 .menu a {
 	font-size: 18px;
-	color: white;
+	color: var(--color-fuente);
+	transition: color 0.5 ease;
 	text-decoration: none;
 	display: block;
 	text-align: center;
@@ -90,9 +97,49 @@
 	height: 40px;
 }
 
+
+/*--------Config-------*/
+
+
+.icono-config{
+	filter: var(--color-icono);
+	height: 35px;
+}
+
+.icono-despliegue{
+	filter: var(--color-icono);
+	height: 17px;
+}
+
+#btn-config{
+	background-color: inherit;
+	border: none;
+	display: block;
+	align-items: center;
+	background-color: inherit;
+	cursor: pointer;
+	height: 50px;
+	padding: 10px 0;
+	width: 100px;
+}
+
+.menu-config li{
+	flex-direction: column;
+	max-height: 0;
+	overflow: hidden;
+	padding: 0;	
+	transition: all 0.3s ease;
+}
+
+.menu-config.open li{
+	max-height: 40px;
+	padding: 10px 0;
+}
+
+
 @media (max-width: 768px) {
 
-	#logo{
+	.logo{
 		display: block;
 	}
 
@@ -116,7 +163,6 @@
 		flex-direction: column;
 		max-height: 0;
 		overflow: hidden;
-		
 		padding: 0;	
 		transition: all 0.3s ease;
 	}
@@ -138,7 +184,7 @@
 		align-items: center;
 	}
 
-	#name-marca{
+	.name-marca{
 		display: none;
 	}
 }
@@ -147,5 +193,9 @@
 
 
 ul.menu li:hover {
-	background-color: #750808;
+	background-color: var(--color-representativo) ;
+}
+
+ul.menu li:hover a {
+	color: #fff;
 }

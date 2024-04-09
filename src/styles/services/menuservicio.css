@@ -28,7 +28,7 @@
 }
 
 .svg img{
-	filter: brightness(0) invert(1);
+	filter: var(--color-icono);
 
 }
 
@@ -46,6 +46,10 @@
     width: 110px;
     background-color: #9e0b0b;
     border-radius: 80px;
+}
+
+.svg:hover img{
+    filter: brightness(0) invert(1);
 }
 
 .png:hover{

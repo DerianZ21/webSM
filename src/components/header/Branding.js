@@ -5,9 +5,9 @@ function Branding() {
     return (
         <div className="branding">
             <Link to="/about">
-                <img id='logo' src='../images/imagesLogo/SeguridadManrique.jpg' alt="Logo Seguridad Manrique" />
+                <img className='logo' src='../images/imagesLogo/SeguridadManrique-sinfondo.png' alt="Logo Seguridad Manrique" />
             </Link>
-            <img id='name-marca' src='../images/imagesLogo/logo-texto.svg' alt='nombre de la marca'>
+            <img className='name-marca' src='../images/imagesLogo/logo-texto.svg' alt='nombre de la marca'>
             </img>
             
         </div>

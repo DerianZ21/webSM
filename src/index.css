@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+:root {
+  --color-fondo: #1d1e29;
+  --color-fondo-oscuro: #1d1e29;
+  --color-fondo-claro: #ddddd9;
+
+  --color-fuente: #fff;
+  --color-fuente-oscuro: #000;
+  --color-fuente-clara: #fff;
+
+  --color-icono: brightness(0) invert(1);
+  --color-icono-claro: brightness(0) invert(1);
+  --color-icono-oscuro: brightness(0) invert(0);
+  
+  --color-representativo: #9e0b0b;
+
+
+}

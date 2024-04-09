@@ -3,6 +3,7 @@
 .main-sections{
     width: 100%;
 }
+
 /*----------section----*/
 /*
 .section{
@@ -24,13 +25,7 @@
     border-radius: 20px;
 }
 
-.section-color1{
-    background-color:  #1d1e29;
-}
 
-.section-color2{
-    background-color: #292a35;
-}
 /*---------card-section-------*/
 .card-section{
     display: flex;

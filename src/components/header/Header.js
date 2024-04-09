@@ -1,6 +1,7 @@
 import React from 'react';
 import Navigation from './Navigation.js';
 import Branding from './Branding.js';
+import Config from './Config.js';
 import '../../styles/header.css';
 
 function Header() {
@@ -10,6 +11,7 @@ function Header() {
         <div className='secundary-header'>
           <Branding />
           <Navigation />
+          <Config/>
         </div>
       </div>
     </header>
