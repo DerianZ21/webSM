@@ -1,4 +1,8 @@
 import React from 'react';
+import preventividad from '../../../assets/images/icon/preventividad.png'
+import integridad from '../../../assets/images/icon/integridad-hogar.png'
+import gestionabildiad from '../../../assets/images/icon/gestionabilidad.png'
+import hogar from '../../../assets/images/nuestras/hogar.webp'
 
 
 function OptionHogar() {
@@ -12,7 +16,7 @@ function OptionHogar() {
       <div className='contenido-hogar'>
         <div className='lista-beneficios'>
           <div className='info-hogar'>
-            <img src='/images/iconos-png/preventividad.png' alt='preventividad'></img>
+            <img src={preventividad} alt='preventividad'></img>
             <div>
               <h3>PREVENTIVIDAD
               </h3>
@@ -21,7 +25,7 @@ function OptionHogar() {
             </div>
           </div>
           <div className='info-hogar'>
-            <img src='/images/iconos-png/integridad-hogar.png' alt='integridad'></img>
+            <img src={integridad} alt='integridad'></img>
             <div>
               <h3>INTEGRIDAD
               </h3>
@@ -30,7 +34,7 @@ function OptionHogar() {
             </div>
           </div>
           <div className='info-hogar'>
-            <img src='/images/iconos-png/gestionabilidad.png' alt='gestion'></img>
+            <img src={gestionabildiad} alt='gestion'></img>
             <div>
               <h3>GESTIONABILIDAD
               </h3>
@@ -40,7 +44,7 @@ function OptionHogar() {
           </div>
         </div>
         <div className='contenedor-img-hogar'>
-          <img src='/images/imagenesNuestras/hogar.webp' alt='hogar'>
+          <img src={hogar} alt='hogar'>
           </img>
         </div>
       </div>

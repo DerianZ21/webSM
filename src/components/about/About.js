@@ -1,12 +1,13 @@
 import React from 'react';
 import '../../styles/about.css'
+import familiaEmpresarial from '../../assets/images/nuestras/familia-empresarial.webp';
 
 function About() {
   return (
     <div className='main-about'>
       <div className='presentation'>
         <div className='img-about'>
-          <img src='/images/imagenesNuestras/familia-empresarial.webp' alt='imagen sobre nosotros'>
+          <img src={familiaEmpresarial} alt='imagen sobre nosotros'>
           </img>
         </div>
         <div className='presentation-text'>

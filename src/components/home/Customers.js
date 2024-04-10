@@ -3,28 +3,28 @@ import Slider from 'react-slick';
 import '../../styles/home/customers.css'
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import cocacola from '../../assets/images/logo/empresa/coca-cola.png';
 
 function Customers() {
 
   const logos = [
-    { src: '/images/logos-empresas/coca-cola.png', alt: 'Logo 1', link: 'https://www.coca-cola.com/ec/es' },
-    { src: '/images/logos-empresas/pepsi.webp', alt: 'Logo 1', link: 'https://www.pepsi.es/' },
-    { src: '/images/logos-empresas/comandato.png', alt: 'Logo 1', link: 'https://www.comandato.com/' },
-    { src: '/images/logos-empresas/deprati.png', alt: 'Logo 1', link: 'https://www.comandato.com/'  },
-    { src: '/images/logos-empresas/la-ganga.png', alt: 'Logo 1', link: 'https://www.comandato.com/'  },
-    { src: '/images/logos-empresas/UEES.jpg', alt: 'Logo 1', link: 'https://www.comandato.com/'  },
-    { src: '/images/logos-empresas/ULVR.png', alt: 'Logo 1', link: 'https://www.comandato.com/'  },
-    { src: '/images/logos-empresas/sweet-and-coffee.webp', alt: 'Logo 1', link: 'https://www.comandato.com/'  },
-    { src: '/images/logos-empresas/mi-comisariato.png', alt: 'Logo 1', link: 'https://www.comandato.com/'  },
-    { src: '/images/logos-empresas/banco-guayaquil.webp', alt: 'Logo 1', link: 'https://www.comandato.com/'  },
-    { src: '/images/logos-empresas/toyota.png', alt: 'Logo 1', link: 'https://www.comandato.com/'  },
-    { src: '/images/logos-empresas/APY.svg', alt: 'Logo 1', link: 'https://www.comandato.com/'  },
-    { src: '/images/logos-empresas/expalsa.png', alt: 'Logo 1', link: 'https://www.comandato.com/'  },
-    { src: '/images/logos-empresas/creditos-economicos.jpg', alt: 'Logo 1', link: 'https://www.comandato.com/'  },
-
-    { src: '/images/logos-empresas/etinar.webp', alt: 'Logo 1', link: 'https://www.comandato.com/'  },
-    { src: '/images/logos-empresas/xima.jpg', alt: 'Logo 1', link: 'https://www.comandato.com/'  },
-    { src: '/images/logos-empresas/iess.png', alt: 'Logo 1', link: 'https://www.comandato.com/'  },
+    { src: {cocacola}, alt: 'logo de coca-cola', link: 'https://www.coca-cola.com/ec/es' },
+    { src: '../../assets/images/logo/empresa/pepsi.webp', alt: 'Logo 1', link: 'https://www.pepsi.es/' },
+    { src: '../../assets/images/logo/empresa/comandato.png', alt: 'Logo 1', link: 'https://www.comandato.com/' },
+    { src: '../../assets/images/logo/empresa/deprati.png', alt: 'Logo 1', link: 'https://www.comandato.com/'  },
+    { src: '../../assets/images/logo/empresa/la-ganga.png', alt: 'Logo 1', link: 'https://www.comandato.com/'  },
+    { src: '../../assets/images/logo/empresa/UEES.jpg', alt: 'Logo 1', link: 'https://www.comandato.com/'  },
+    { src: '../../assets/images/logo/empresa/ULVR.png', alt: 'Logo 1', link: 'https://www.comandato.com/'  },
+    { src: '../../assets/images/logo/empresa/sweet-and-coffee.webp', alt: 'Logo 1', link: 'https://www.comandato.com/'  },
+    { src: '../../assets/images/logo/empresa/mi-comisariato.png', alt: 'Logo 1', link: 'https://www.comandato.com/'  },
+    { src: '../../assets/images/logo/empresa/banco-guayaquil.webp', alt: 'Logo 1', link: 'https://www.comandato.com/'  },
+    { src: '../../assets/images/logo/empresa/toyota.png', alt: 'Logo 1', link: 'https://www.comandato.com/'  },
+    { src: '../../assets/images/logo/empresa/APY.svg', alt: 'Logo 1', link: 'https://www.comandato.com/'  },
+    { src: '../../assets/images/logo/empresa/expalsa.png', alt: 'Logo 1', link: 'https://www.comandato.com/'  },
+    { src: '../../assets/images/logo/empresa/creditos-economicos.jpg', alt: 'Logo 1', link: 'https://www.comandato.com/'  },
+    { src: '../../assets/images/logo/empresa/etinar.webp', alt: 'Logo 1', link: 'https://www.comandato.com/'  },
+    { src: '../../assets/images/logo/empresa/xima.jpg', alt: 'Logo 1', link: 'https://www.comandato.com/'  },
+    { src: '../../assets/images/logo/empresa/iess.png', alt: 'Logo 1', link: 'https://www.comandato.com/'  },
 
   ]
 

@@ -30,7 +30,7 @@
 
 .mapa-estrategico{
     margin: 20px;
-    background-image: url("../../public/images/imagenesNuestras/fondo-mision-vision.webp");
+    background-image: url("../assets/images/nuestras/fondo-mision-vision.webp");
     background-size: cover;
     max-width: 1000px;
     height: 450px;

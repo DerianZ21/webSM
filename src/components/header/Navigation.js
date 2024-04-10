@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import menu from '../../assets/images/icon/menu.png'
 
 function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -10,12 +11,16 @@ function Navigation() {
 
       <ul className={`menu ${isMenuOpen ? 'open' : 'close'}`}>
         <li id="menu-toggle" onClick={() => setIsMenuOpen(!isMenuOpen)}>
-          <img className='icon-menu' src='../images/imagesLogo/menu.png' alt='icon-menu'></img>
+          <img className='icon-menu' src={menu} alt='icon-menu'></img>
         </li>
         <li ><Link to="/">Home</Link></li>
         <li ><Link to="/about">About</Link></li>
         <li ><Link to="/services">Services</Link></li>
         <li ><Link to="/contacts">Contacts</Link></li>
+        <li >
+          <div>
+          </div>
+        </li>
       </ul>
     </nav>
   );

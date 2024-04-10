@@ -1,5 +1,7 @@
 import React from "react"
 import '../../styles/contact/cards.css'
+import telefono from '../../assets/images/icon/telefono.png';
+import email from '../../assets/images/icon/email.png';
 function Cards() {
 
 
@@ -30,11 +32,11 @@ function Cards() {
                         </div>
                         <div className='datos-info'>
                             <div className='info-numero'>
-                                <img className='icono-contacto' src='/images/iconos-png/telefono.png' alt='icon de teléfono'></img>
+                                <img className='icono-contacto' src={telefono} alt='icon de teléfono'></img>
                                 <p>{item.numero}</p>
                             </div>
                             <div className='info-email'>
-                                <img className='icono-contacto' src='/images/iconos-png/email.png' alt='icon de correo'></img>
+                                <img className='icono-contacto' src={email} alt='icon de correo'></img>
                                 <p>{item.correo}</p>
                             </div>
                         </div>

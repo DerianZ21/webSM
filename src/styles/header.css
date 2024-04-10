@@ -98,43 +98,6 @@
 }
 
 
-/*--------Config-------*/
-
-
-.icono-config{
-	filter: var(--color-icono);
-	height: 35px;
-}
-
-.icono-despliegue{
-	filter: var(--color-icono);
-	height: 17px;
-}
-
-#btn-config{
-	background-color: inherit;
-	border: none;
-	display: block;
-	align-items: center;
-	background-color: inherit;
-	cursor: pointer;
-	height: 50px;
-	padding: 10px 0;
-	width: 100px;
-}
-
-.menu-config li{
-	flex-direction: column;
-	max-height: 0;
-	overflow: hidden;
-	padding: 0;	
-	transition: all 0.3s ease;
-}
-
-.menu-config.open li{
-	max-height: 40px;
-	padding: 10px 0;
-}
 
 
 @media (max-width: 768px) {
@@ -169,7 +132,6 @@
 
 	.menu.open li{
 		max-height: 40px;
-		padding: 10px 0;
 	}
 
 	nav{

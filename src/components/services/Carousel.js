@@ -3,6 +3,12 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import '../../styles/services/carousel.css'
+import monitoreo from '../../assets/images/funciones/central-monitoreo2.webp'
+import recomendaciones from '../../assets/images/nuestras/recomendaciones-de-seguridad.webp'
+import beneficios from '../../assets/images/nuestras/beneficios.webp'
+import costos from '../../assets/images/nuestras/costos-servicio1.webp'
+import pinlet from '../../assets/images/nuestras/pinlet.webp'
+
 
 const Carousel = () => {
     const settings = {
@@ -36,19 +42,19 @@ const Carousel = () => {
     return (
       <Slider {...settings}>
         <div className='content-carousel'>
-          <img className='img-carousel' src="../images/imagesServicios/central-monitoreo2.webp" alt="central de monitoreo" />
+          <img className='img-carousel' src={monitoreo} alt="central de monitoreo" />
         </div>
         <div className='content-carousel'> 
-          <img className='img-carousel' src="../images/imagesServicios/recomendaciones-de-seguridad.webp" alt="recomendaciones" />
+          <img className='img-carousel' src={recomendaciones} alt="recomendaciones" />
         </div>
         <div className='content-carousel'>
-          <img  className='img-carousel' src="../images/imagesServicios/beneficios.webp" alt="beneficios" />
+          <img  className='img-carousel' src={beneficios} alt="beneficios" />
         </div>
         <div className='content-carousel'>
-          <img className='img-carousel' src="../images/imagesServicios/costos-servicio1.webp" alt="costos" />
+          <img className='img-carousel' src={costos} alt="costos" />
         </div>
         <div className='content-carousel'>
-          <img className='img-carousel' src="../images/imagesServicios/pinlet.webp" alt="pinlet" />
+          <img className='img-carousel' src={pinlet} alt="pinlet" />
         </div>
       </Slider>
     );

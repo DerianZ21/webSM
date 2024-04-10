@@ -74,7 +74,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url('../../../public/images/imagenesNuestras/seguridad-vanguardia.webp');
+    background-image: url('../../assets/images/nuestras/seguridad-vanguardia.webp');
     background-size: cover;
     background-position: center;
     filter: grayscale(100%);
@@ -83,7 +83,7 @@
 }
 
 .monitoreo-personalización::before{
-    background-image: url('../../../public/images/imagenesNuestras/personalizado.webp');
+    background-image: url('../../assets/images/nuestras/personalizado.webp');
 }
   
 .texto-vanguardia,

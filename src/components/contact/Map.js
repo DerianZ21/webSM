@@ -7,7 +7,7 @@ import '../../styles/contact/map.css'
 function Map() {
 
     const iconoPersonalizado = new L.Icon({
-        iconUrl: '/images/imagesLogo/SeguridadManrique-sinfondo.png',
+        iconUrl: '/assets/images/logo/SeguridadManrique-sinfondo.png',
         iconSize: [35, 35], 
         iconAnchor: [17.5, 35],
         popupAnchor: [0, -35],

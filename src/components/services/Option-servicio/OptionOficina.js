@@ -1,4 +1,8 @@
 import React from 'react';
+import adaptabilidad from '../../../assets/images/icon/adaptabilidad.png'
+import integridad from '../../../assets/images/icon/integridad-oficina.png'
+import escalabilidad from '../../../assets/images/icon/escalabilidad.png'
+import oficina from '../../../assets/images/nuestras/oficina.webp'
 
 
 function OptionOficina() {
@@ -12,7 +16,7 @@ function OptionOficina() {
       <div className='contenido-oficina'>
         <div className='lista-beneficios'>
           <div className='info-oficina'>
-            <img src='/images/iconos-png/adaptabilidad.png' alt='adaptabilidad'></img>
+            <img src={adaptabilidad} alt='adaptabilidad'></img>
             <div>
               <h3>ADAPTABILIDAD
               </h3>
@@ -21,7 +25,7 @@ function OptionOficina() {
             </div>
           </div>
           <div className='info-oficina'>
-            <img src='/images/iconos-png/integridad-oficina.png' alt='integridad'></img>
+            <img src={integridad} alt='integridad'></img>
             <div>
               <h3>INTEGRIDAD
               </h3>
@@ -30,7 +34,7 @@ function OptionOficina() {
             </div>
           </div>
           <div className='info-oficina'>
-            <img src='/images/iconos-png/escalabilidad.png' alt='escalabilidad'></img>
+            <img src={escalabilidad} alt='escalabilidad'></img>
             <div>
               <h3>ESCALABILIDAD
               </h3>
@@ -40,7 +44,7 @@ function OptionOficina() {
           </div>
         </div>
         <div className='contenedor-img-oficina'>
-          <img src='/images/imagenesNuestras/oficina.webp' alt='oficina'>
+          <img src={oficina} alt='oficina'>
           </img>
         </div>
       </div>

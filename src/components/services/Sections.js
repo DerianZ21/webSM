@@ -6,7 +6,7 @@ function Sections() {
   const section = [ 
     {
       id: "sistema-cctv",
-      url: "../images/imagesServicios/sistemas-cctv.webp",
+      url: "../../assets/images/nuestras/sistemas-cctv.webp",
       descripcion: "SISTEMA CCTV",
       info: <p>Con nuestro servicio de Sistema CCTV (Circuito cerrado de televisión), 
         tendrás la tranquilidad de poder visualizar en tiempo real lo que sucede en tu
@@ -15,7 +15,7 @@ function Sections() {
      
     {
       id: "sistema-alarma",
-      url: "../images/imagesServicios/sistemas-alarmas.webp",
+      url: "../../assets/images/nuestras/sistemas-alarmas.webp",
       descripcion: "SISTEMA DE ALARMAS",
       info: <p>Nuestro sistema de alarma es tu mejor aliado en seguridad pasiva. 
         Te alerta rápidamente ante cualquier evento no deseado, 
@@ -24,7 +24,7 @@ function Sections() {
      
     {
       id: "cerco-electrico",
-      url: "../images/imagesServicios/cerco-electrico.webp",
+      url: "../../assets/images/nuestras/cerco-electrico.webp",
       descripcion: "CERCO ELÉCTRICO",
       info: <p>Nuestro cerco eléctrico es la solución ideal. 
         Diseñado para operar las 24 horas del día, los 365 días del año, 
@@ -33,7 +33,7 @@ function Sections() {
      
     {
       id: "bitacora-electronica",
-      url: "../images/imagesServicios/bitacora-electronica.webp",
+      url: "../../assets/images/nuestras/bitacora-electronica.webp",
       descripcion: "BITÁCORA ELECTRÓNICA",
       info: <p>Registro de informacion de manera digital, accesible las 24 horas del dia y 
         con todo el software controlado por administración.</p>
@@ -41,7 +41,7 @@ function Sections() {
      
     {
       id: "control-acceso",
-      url: "../images/imagesServicios/control-acceso.webp",
+      url: "../../assets/images/nuestras/control-acceso.webp",
       descripcion: "CONTROL DE ACCESO",
       info: <p>Capacidad de permitir o restringir la entrada mediante una 
         variedad de métodos de identificación, como tarjetas, llaveros, contraseñas, 
@@ -50,7 +50,7 @@ function Sections() {
      
     {
       id: "codigo-qr",
-      url: "../images/imagesServicios/codigo-qr.webp",
+      url: "../../assets/images/nuestras/codigo-qr.webp",
       descripcion: "CÓDIGO QR",
       info:<p>Utiliza códigos QR para controlar el acceso a edificios, oficinas, 
         eventos y demas areas que deseas restringir, estos pueden ser implementados en 
@@ -59,7 +59,7 @@ function Sections() {
      
     {
       id: "control-vehicular",
-      url: "../images/imagesServicios/control-vehicular.webp",
+      url: "../../assets/images/nuestras/control-vehicular.webp",
       descripcion: "SISTEMA DE CONTROL VEHICULAR",
       info: <p>¿Desea gestionar de manera eficiente y segura el acceso de vehículos en su 
         espacio público o privado, como un estacionamiento? 
@@ -67,7 +67,7 @@ function Sections() {
     },
     {
       id: "incendios",
-      url: "../images/imagesServicios/sistemas-incendios.webp",
+      url: "../../assets/images/nuestras/sistemas-incendios.webp",
       descripcion: "DETECCIÓN Y EXTINCIÓN DE INCENDIOS",
       info: <p>Con tecnología avanzada, detectamos cualquier señal de fuego en sus primeras etapas, 
         permitiendo una respuesta rápida y precisa. Además, 
@@ -76,7 +76,7 @@ function Sections() {
     },
     {
       id: "puerta-seguridad",
-      url: "../images/imagesServicios/puertas-seguridad.webp",
+      url: "../../assets/images/nuestras/puertas-seguridad.webp",
       descripcion: "PUERTAS DE SEGURIDAD",
       info: <p>Diseñadas con los más altos estándares de calidad y resistencia, ofrecen una barrera 
         robusta contra intrusos y cualquier amenaza externa.</p>

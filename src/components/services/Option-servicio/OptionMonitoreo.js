@@ -1,4 +1,8 @@
 import React from 'react';
+import disponibilidad from '../../../assets/images/icon/24-7.png'
+import camara from '../../../assets/images/icon/camara.png'
+import central from '../../../assets/images/icon/central.png'
+import comunicacion from '../../../assets/images/icon/comunicacion.png'
 
 
 function OptionMonitoreo() {
@@ -11,25 +15,25 @@ function OptionMonitoreo() {
         <div className='main-info-monitoreo'>
           <div>
             <div className='contenedor-img-monitoreo'>
-              <img src='../images/iconos-png/24-7.png' alt='47/7'></img>
+              <img src={disponibilidad} alt='47/7'></img>
             </div>
             <p>Opera la 24 horas, los 365 dias</p>
           </div>
           <div>
             <div className='contenedor-img-monitoreo'>
-              <img src='../images/iconos-png/camara.png' alt='camara'></img>
+              <img src={camara} alt='camara'></img>
             </div>
             <p>Implementación de equipos tecnologicos</p>
           </div>
           <div>
             <div className='contenedor-img-monitoreo'>
-              <img src='../images/iconos-png/central.png' alt='central'></img>
+              <img src={central} alt='central'></img>
             </div>
             <p>Centralista durante el dia y noche</p>
           </div>
           <div>
             <div className='contenedor-img-monitoreo'>
-              <img src='../images/iconos-png/comunicacion.png' alt='comunicación'></img>
+              <img src={comunicacion} alt='comunicación'></img>
             </div>
             <p>Comunicación directa con todo el personal de seguridad</p>
           </div>
