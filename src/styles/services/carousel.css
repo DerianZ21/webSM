@@ -11,6 +11,14 @@
 	border-radius: 15px;
 }
 
+.slick-slide .img-carousel-nav {
+    margin: 10px;
+    display: block;
+    width: 250px;
+    border-radius: 20px;
+}
+
+
 .slick-dots li button:before{
     color: #ac6868 ;
     font-size: 10px;

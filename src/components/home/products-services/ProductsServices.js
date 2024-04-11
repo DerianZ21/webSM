@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../../styles/home/products-services.css'
+import CarouselProductsServices from './CarouselProductsServices'
+import '../../../styles/home/products-services.css'
 
 function ProductsServices() {
   return (
@@ -82,6 +83,7 @@ function ProductsServices() {
           </ul>
         </div>
       </div>
+      <CarouselProductsServices/>
     </div>
   );
 }
