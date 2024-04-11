@@ -1,12 +1,21 @@
 import React from 'react';
 import '../../styles/services/sections.css'
+import CCTV from '../../assets/images/nuestras/sistemas-cctv.webp'
+import alarma from '../../assets/images/nuestras/sistemas-alarmas.webp'
+import cerco from '../../assets/images/nuestras/cerco-electrico.webp'
+import bitacora from '../../assets/images/nuestras/bitacora-electronica.webp'
+import acceso from '../../assets/images/nuestras/control-acceso.webp'
+import codigoQR from '../../assets/images/nuestras/sistemasQR.jpg'
+import vehicular from '../../assets/images/nuestras/control-vehicular.webp'
+import incendios from '../../assets/images/nuestras/sistemas-incendios.webp'
+import puertas from '../../assets/images/nuestras/puertas-seguridad.webp'
 
 function Sections() {
 
   const section = [ 
     {
       id: "sistema-cctv",
-      url: "../../assets/images/nuestras/sistemas-cctv.webp",
+      url: CCTV,
       descripcion: "SISTEMA CCTV",
       info: <p>Con nuestro servicio de Sistema CCTV (Circuito cerrado de televisión), 
         tendrás la tranquilidad de poder visualizar en tiempo real lo que sucede en tu
@@ -15,7 +24,7 @@ function Sections() {
      
     {
       id: "sistema-alarma",
-      url: "../../assets/images/nuestras/sistemas-alarmas.webp",
+      url: alarma,
       descripcion: "SISTEMA DE ALARMAS",
       info: <p>Nuestro sistema de alarma es tu mejor aliado en seguridad pasiva. 
         Te alerta rápidamente ante cualquier evento no deseado, 
@@ -24,7 +33,7 @@ function Sections() {
      
     {
       id: "cerco-electrico",
-      url: "../../assets/images/nuestras/cerco-electrico.webp",
+      url: cerco,
       descripcion: "CERCO ELÉCTRICO",
       info: <p>Nuestro cerco eléctrico es la solución ideal. 
         Diseñado para operar las 24 horas del día, los 365 días del año, 
@@ -33,7 +42,7 @@ function Sections() {
      
     {
       id: "bitacora-electronica",
-      url: "../../assets/images/nuestras/bitacora-electronica.webp",
+      url: bitacora,
       descripcion: "BITÁCORA ELECTRÓNICA",
       info: <p>Registro de informacion de manera digital, accesible las 24 horas del dia y 
         con todo el software controlado por administración.</p>
@@ -41,7 +50,7 @@ function Sections() {
      
     {
       id: "control-acceso",
-      url: "../../assets/images/nuestras/control-acceso.webp",
+      url: acceso,
       descripcion: "CONTROL DE ACCESO",
       info: <p>Capacidad de permitir o restringir la entrada mediante una 
         variedad de métodos de identificación, como tarjetas, llaveros, contraseñas, 
@@ -50,7 +59,7 @@ function Sections() {
      
     {
       id: "codigo-qr",
-      url: "../../assets/images/nuestras/codigo-qr.webp",
+      url: codigoQR,
       descripcion: "CÓDIGO QR",
       info:<p>Utiliza códigos QR para controlar el acceso a edificios, oficinas, 
         eventos y demas areas que deseas restringir, estos pueden ser implementados en 
@@ -59,7 +68,7 @@ function Sections() {
      
     {
       id: "control-vehicular",
-      url: "../../assets/images/nuestras/control-vehicular.webp",
+      url: vehicular,
       descripcion: "SISTEMA DE CONTROL VEHICULAR",
       info: <p>¿Desea gestionar de manera eficiente y segura el acceso de vehículos en su 
         espacio público o privado, como un estacionamiento? 
@@ -67,7 +76,7 @@ function Sections() {
     },
     {
       id: "incendios",
-      url: "../../assets/images/nuestras/sistemas-incendios.webp",
+      url: incendios,
       descripcion: "DETECCIÓN Y EXTINCIÓN DE INCENDIOS",
       info: <p>Con tecnología avanzada, detectamos cualquier señal de fuego en sus primeras etapas, 
         permitiendo una respuesta rápida y precisa. Además, 
@@ -76,7 +85,7 @@ function Sections() {
     },
     {
       id: "puerta-seguridad",
-      url: "../../assets/images/nuestras/puertas-seguridad.webp",
+      url: puertas,
       descripcion: "PUERTAS DE SEGURIDAD",
       info: <p>Diseñadas con los más altos estándares de calidad y resistencia, ofrecen una barrera 
         robusta contra intrusos y cualquier amenaza externa.</p>

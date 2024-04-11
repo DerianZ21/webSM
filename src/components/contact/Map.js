@@ -3,11 +3,12 @@ import { MapContainer, TileLayer, Marker } from 'react-leaflet';
 import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 import '../../styles/contact/map.css'
+import logo from  '../../assets/images/logo/SeguridadManrique-sinfondo.png';
 
 function Map() {
 
     const iconoPersonalizado = new L.Icon({
-        iconUrl: '/assets/images/logo/SeguridadManrique-sinfondo.png',
+        iconUrl: logo,
         iconSize: [35, 35], 
         iconAnchor: [17.5, 35],
         popupAnchor: [0, -35],
