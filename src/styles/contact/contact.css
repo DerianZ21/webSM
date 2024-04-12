@@ -9,6 +9,7 @@
     flex-direction: row;
     justify-content: center;
     gap: 30px;
+    padding-bottom: 20PX;
 }
 
 .top-contact h1 {

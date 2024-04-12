@@ -17,7 +17,7 @@ import toyota from '../../assets/images/logo/empresa/toyota.png';
 import APY from '../../assets/images/logo/empresa/APY.svg';
 import expalsa from '../../assets/images/logo/empresa/expalsa.png';
 import creditosEconomicos from '../../assets/images/logo/empresa/creditos-economicos.jpg';
-import etinar from '../../assets/images/logo/empresa/etinar.webp';
+import etinar from '../../assets/images/logo/empresa/etinar.png';
 import xima from '../../assets/images/logo/empresa/xima.jpg';
 import iess from '../../assets/images/logo/empresa/iess.png';
 import blueBay from '../../assets/images/logo/empresa/blue-bay.webp';
@@ -32,25 +32,25 @@ function Customers() {
     { src: cocacola, alt: 'logo de coca-cola', link: 'https://www.coca-cola.com/ec/es' },
     { src: pepsi, alt: 'Logo de Pepsi', link: 'https://www.pepsi.es/' },
     { src: comandato, alt: 'Logo de Comandato', link: 'https://www.comandato.com/' },
-    { src: deprati, alt: 'Logo de Deprati', link: 'https://www.deprati.com.ec/'  },
-    { src: laGanga, alt: 'Logo de La Ganga', link: 'https://www.almaceneslaganga.com/pedidos-en-linea/'  },
-    { src: UEES, alt: 'Logo de UEES', link: 'https://uees.edu.ec/'  },
-    { src: ULVR, alt: 'Logo de ULVR', link: 'https://www.ulvr.edu.ec/'  },
-    { src: sweetAndCoffee, alt: 'Logo de Sweet & Coffee', link: 'https://www.sweetandcoffee.com.ec/'  },
-    { src: miComisariato, alt: 'Logo de Mi Comisariato', link: 'https://micomisariato.com/'  },
-    { src: bancoGuayaquil, alt: 'Logo de Banco Guayaquil', link: 'https://www.bancoguayaquil.com/'  },
-    { src: toyota, alt: 'Logo de Toyota', link: 'https://www.toyota.com.ec/'  },
-    { src: APY, alt: 'Logo de APY', link: 'https://apy.com.ec/'  },
-    { src: expalsa, alt: 'Logo de Expalsa', link: 'https://www.expalsa.com/'  },
-    { src: creditosEconomicos, alt: 'Logo de Créditos Económicos', link: 'https://www.crecos.com/'  },
-    { src: etinar, alt: 'Logo de Etinar', link: 'https://www.etinar.com/'  },
-    { src: xima, alt: 'Logo de Xima', link: 'https://inmobiliariaxima.ec/'  },
-    { src: iess, alt: 'Logo de IESS', link: 'https://www.iess.gob.ec/'  },
-    { src: blueBay, alt: 'Logo de IESS', link: 'https://www.bluebayhotelsalinas.com/'  },
-    { src: malecon2000, alt: 'Logo de IESS', link: 'https://malecon2000.com/'  },
-    { src: mallSol, alt: 'Logo de IESS', link: 'https://malldelsol.com.ec/'  },
-    { src: solca, alt: 'Logo de IESS', link: 'https://www.comandato.com/'  },
-    { src: torresCosta, alt: 'Logo de IESS', link: 'https://www.solca.med.ec/'  },
+    { src: deprati, alt: 'Logo de Deprati', link: 'https://www.deprati.com.ec/' },
+    { src: laGanga, alt: 'Logo de La Ganga', link: 'https://www.almaceneslaganga.com/pedidos-en-linea/' },
+    { src: UEES, alt: 'Logo de UEES', link: 'https://uees.edu.ec/' },
+    { src: ULVR, alt: 'Logo de ULVR', link: 'https://www.ulvr.edu.ec/' },
+    { src: sweetAndCoffee, alt: 'Logo de Sweet & Coffee', link: 'https://www.sweetandcoffee.com.ec/' },
+    { src: miComisariato, alt: 'Logo de Mi Comisariato', link: 'https://micomisariato.com/' },
+    { src: bancoGuayaquil, alt: 'Logo de Banco Guayaquil', link: 'https://www.bancoguayaquil.com/' },
+    { src: toyota, alt: 'Logo de Toyota', link: 'https://www.toyota.com.ec/' },
+    { src: APY, alt: 'Logo de APY', link: 'https://apy.com.ec/' },
+    { src: expalsa, alt: 'Logo de Expalsa', link: 'https://www.expalsa.com/' },
+    { src: creditosEconomicos, alt: 'Logo de Créditos Económicos', link: 'https://www.crecos.com/' },
+    { src: etinar, alt: 'Logo de Etinar', link: 'https://www.etinar.com/' },
+    { src: xima, alt: 'Logo de Xima', link: 'https://inmobiliariaxima.ec/' },
+    { src: iess, alt: 'Logo de IESS', link: 'https://www.iess.gob.ec/' },
+    { src: blueBay, alt: 'Logo de IESS', link: 'https://www.bluebayhotelsalinas.com/' },
+    { src: malecon2000, alt: 'Logo de IESS', link: 'https://malecon2000.com/' },
+    { src: mallSol, alt: 'Logo de IESS', link: 'https://malldelsol.com.ec/' },
+    { src: solca, alt: 'Logo de IESS', link: 'https://www.comandato.com/' },
+    { src: torresCosta, alt: 'Logo de IESS', link: 'https://www.solca.med.ec/' },
 
   ];
 
@@ -64,11 +64,11 @@ function Customers() {
     dots: false,
     arrows: false,
     infinite: true,
-    speed: 3000,
+    speed: 800,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 10,
+    autoplaySpeed: 2800,
     pauseOnHover: false,
     responsive: [
       {
@@ -91,21 +91,24 @@ function Customers() {
   };
 
   return (
-    <Slider {...settings}>
-      {logoChunks.map((chunk, index) => (
-        <div key={index} className='main-customers'>
-          <div className='empresas'>
-            {chunk.map((logo, logoIndex) => (
-              <div key={logoIndex} className="logo-empresa">
-                <a href={logo.link || '#'} target="_blank" rel="noopener noreferrer">
-                  <img src={logo.src} alt={logo.alt} />
-                </a>
-              </div>
-            ))}
+    <div className='main-customers'>
+      <h1>MARCAS QUE CONFIAN EN NOSOTROS</h1>
+      <Slider {...settings}>
+        {logoChunks.map((chunk, index) => (
+          <div key={index} className='chunk-customers'>
+            <div className='empresas'>
+              {chunk.map((logo, logoIndex) => (
+                <div key={logoIndex} className="logo-empresa">
+                  <a href={logo.link || '#'} target="_blank" rel="noopener noreferrer">
+                    <img src={logo.src} alt={logo.alt} />
+                  </a>
+                </div>
+              ))}
+            </div>
           </div>
-        </div>
-      ))}
-    </Slider>
+        ))}
+      </Slider>
+    </div>
   );
 }
 

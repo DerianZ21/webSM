@@ -98,11 +98,23 @@
 
 
 .main-carousel-PS{
+    position: relative;
     margin: auto;
     max-width: 1090px;
-    background-color: var(--color-fondo-oscuro);
     border-radius: 20px;
-    
+    background-color: inherit;
+    overflow: hidden;
+}
+
+.main-carousel-PS::before{
+    position: absolute;
+    content: " ";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black; 
+    opacity: 0.4;
 }
 
 .Carousel-products-services .SP{

@@ -2,9 +2,9 @@ import React from "react";
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import sistemaQR from '../../../assets/images/nuestras/sistemasQR.jpg';
-import sistemaRF from '../../../assets/images/nuestras/sistemaFACIAL.jpg';
-import gestionAPP from '../../../assets/images/nuestras/gestionAPP.jpg';
+import sistemaQR from '../../../assets/images/nuestras/sistemasQR.webp';
+import sistemaRF from '../../../assets/images/nuestras/sistemaFACIAL.webp';
+import gestionAPP from '../../../assets/images/nuestras/gestionAPP.webp';
 
 function CarouselDescription() {
 
@@ -42,9 +42,9 @@ function CarouselDescription() {
 
     return (
         <Slider {...settings}>
-                <img className='img-carousel-description' src={sistemaQR} alt="sistemas con tecnologia QR" ></img>
-                <img className='img-carousel-description' src={sistemaRF} alt="sistemas de reconocimeintofacial" ></img>
-                <img className='img-carousel-description' src={gestionAPP} alt="Gestion por aplicacion movil"></img>
+                <img className='img-carousel-description' src={sistemaQR} alt="sistemas con tecnologia QR" loading="lazy"></img>
+                <img className='img-carousel-description' src={sistemaRF} alt="sistemas de reconocimeintofacial" loading="lazy" ></img>
+                <img className='img-carousel-description' src={gestionAPP} alt="Gestion por aplicacion movil" loading="lazy"></img>
         </Slider>
     )
 }

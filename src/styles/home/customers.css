@@ -1,13 +1,19 @@
-.main-customers {
+.main-customers{
+    padding-top: 40px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+
+.chunk-customers {
     max-width: 900px;
-    margin: 50px auto 40px auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     border-radius: 30px;
 }
 
-.main-customers h1{
+.chunk-customers h1{
     font-size: 25px;
 }
 
@@ -29,7 +35,6 @@
 .logo-empresa:hover {
     background-color: #181822;
 }
-
 
 .logo-empresa a img {
     margin: 32.5px;

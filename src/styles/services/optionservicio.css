@@ -115,6 +115,7 @@
 
 
 #pinlet{
+    color: white;
     background-color: #3d4751;
     display: flex;
     flex-direction: row;
@@ -126,8 +127,9 @@
 }
 
 #titulo-pinlet{
+    filter: var(--color-icono-claro);
     padding-bottom: 10px;
-    max-height: 95px;
+    max-height: 50px;
 }
 
 .texto-pinlet{
@@ -135,11 +137,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-}
-
-.texto-pinlet p{
-    max-width: 400px;
-    padding-bottom: 20px;
 }
 
 .telefono{
@@ -325,6 +322,7 @@
     text-align: start;
     padding: 0 ;
     margin: 0 10px 0 0;
+    color: white;
 }
 
 .info-hogar ,

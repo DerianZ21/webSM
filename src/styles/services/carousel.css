@@ -1,5 +1,5 @@
-.slick-slider{
-    width: 75%;
+.main-services .slick-slider{
+    max-width: 1000px;
     margin: auto;
 }
 
@@ -12,9 +12,9 @@
 }
 
 .slick-slide .img-carousel-nav {
-    margin: 10px;
+    margin: auto;
     display: block;
-    width: 250px;
+    width: 200px;
     border-radius: 20px;
 }
 
@@ -26,6 +26,16 @@
 
 .slick-dots li.slick-active button:before {
     color:#fff;
+}
+
+.slick-prev,
+.slick-next {
+  background-color: #ddd; /* Fondo gris */
+  border-radius: 50%; /* Forma circular */
+  width: 40px; /* Ancho fijo */
+  height: 40px; /* Altura fija */
+  color: black; /* Color de la flecha */
+  z-index: 1;
 }
 
 

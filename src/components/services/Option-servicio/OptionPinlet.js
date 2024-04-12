@@ -1,5 +1,5 @@
 import React from 'react';
-import tituloPinlet from '../../../assets/images/logo/pinlet-completo.png'
+import tituloPinlet from '../../../assets/images/logo/pinlet-texto.svg'
 import marco from '../../../assets/images/diseno/marco-smartphone.webp'
 import pantalla from '../../../assets/images/diseno/pantalla-pinlet.webp'
 import megafono from '../../../assets/images/icon/megafono.png'

@@ -19,7 +19,7 @@ function FormEmail() {
       [name]: value,
     }));
   };
-
+  
   const handleSubmit = (e) => {
     e.preventDefault();
     // Aquí mostraríamos los datos recogidos o los enviaríamos a un servidor

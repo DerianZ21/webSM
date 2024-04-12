@@ -1,10 +1,24 @@
 import React from 'react';
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 import '../../styles/about.css'
 import familiaEmpresarial from '../../assets/images/nuestras/familia-empresarial.webp';
 
 function About() {
+
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.hash === '#main-about') {
+      const section = document.getElementById('main-about');
+      if (section) {
+        section.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  }, [location]);
+
   return (
-    <div className='main-about'>
+    <div id='main-about' className='main-about'>
       <div className='presentation'>
         <div className='img-about'>
           <img src={familiaEmpresarial} alt='imagen sobre nosotros'>

@@ -9,7 +9,7 @@ import beneficios from '../../assets/images/nuestras/beneficios.webp';
 import costos from '../../assets/images/nuestras/costos-servicio1.webp';
 import pinlet from '../../assets/images/nuestras/pinlet.webp';
 
-const Carousel = () => {
+function Carousel() {
   const sliderMain = useRef(null);
   const sliderNav = useRef(null);
 
@@ -21,37 +21,23 @@ const Carousel = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 10,
+    autoplaySpeed: 2000,
     pauseOnHover: false,
-    responsive: [
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          infinite: true,
-          dots: false
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-    ],
     fade: true,
-    asNavFor: sliderNav.current // Referencia al slider de navegación
+    asNavFor: sliderNav.current // Referencia al otro slider
   };
 
   const settingsNav = {
+    speed: 700,
+    autoplay: true,
+    autoplaySpeed: 2000,
     slidesToShow: 3,
     slidesToScroll: 1,
-    dots: true,
+    dots: false,
     centerMode: true,
+    pauseOnHover: false,
     focusOnSelect: true,
-    asNavFor: sliderMain.current // Referencia al slider principal
+    asNavFor: sliderMain.current // Referencia al otro slider
   };
 
   return (

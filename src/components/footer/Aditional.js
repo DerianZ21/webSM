@@ -8,7 +8,7 @@ import ubicacion from '../../assets/images/icon/ubicacion.svg';
 function Aditional() {
   return (
     <div className='aditional'>
-      <div className='marca'>
+      <div className='marca-footer'>
         <Link to="/">
           <img className='logo-footer logo-footer-MS' src={logoMS} alt="Logo Seguridad Manrique" />
         </Link>

@@ -1,0 +1,39 @@
+.main-extra {
+    background-color: var(--color-representativo);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+}
+
+.img-extra {
+    width: 50%;
+}
+
+.img-extra img {
+    height: 100%;
+    width: 100%;
+}
+
+.contenedor-info-extra{
+    width: 50%;
+    height: 50%;
+}
+
+.contenedor-info-extra div{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    width: 50%;
+    height: 50%;
+    justify-items: center;
+    align-items: center;
+}
+
+.info-extra {
+    background-color: black;
+    width: 150px;
+    height: 150px;
+}

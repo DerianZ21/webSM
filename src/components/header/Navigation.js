@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactSwitch from 'react-switch';
 import { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import menu from '../../assets/images/icon/menu.png'
 
 function Navigation() {
@@ -20,16 +20,20 @@ function Navigation() {
 
   const aplicarTema = (oscuro) => {
     if (oscuro) {
-      // Aplicar tema oscuro
       document.documentElement.style.setProperty('--color-fondo', '#1d1e29');
       document.documentElement.style.setProperty('--color-fuente', '#fff');
       document.documentElement.style.setProperty('--color-icono', 'brightness(0) invert(1)');
     } else {
-      // Aplicar tema claro
       document.documentElement.style.setProperty('--color-fondo', '#ddddd9');
       document.documentElement.style.setProperty('--color-fuente', '#000');
       document.documentElement.style.setProperty('--color-icono', 'brightness(0) invert(0)');
     }
+  };
+
+  const navigate = useNavigate();
+
+  const goToAboutSection = () => {
+    navigate("/#main-about");
   };
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -42,7 +46,7 @@ function Navigation() {
           <img className='icon-menu' src={menu} alt='icon-menu'></img>
         </li>
         <li ><Link to="/">Home</Link></li>
-        <li ><Link to="/about">About</Link></li>
+        <li className='about-section' onClick={goToAboutSection}><p className=''>About</p></li>
         <li ><Link to="/services">Services</Link></li>
         <li ><Link to="/contacts">Contacts</Link></li>
         <li className='contenedor-temas'>
@@ -54,12 +58,12 @@ function Navigation() {
                 checked={temaOscuro} height={15}
                 width={30}
                 handleDiameter={15}
-                uncheckedIcon={false}  
+                uncheckedIcon={false}
                 checkedIcon={false}
-                onColor="#ccc" 
+                onColor="#cccccc"
                 offColor="#333"
                 onHandleColor="#fff"
-                offHandleColor="#000"/>
+                offHandleColor="#fff" />
             </label>
           </div>
         </li>

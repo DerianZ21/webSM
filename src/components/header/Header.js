@@ -1,12 +1,33 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Navigation from './Navigation.js';
 import Branding from './Branding.js';
 import '../../styles/header.css';
 
 function Header() {
+  const [isVisible, setIsVisible] = useState(true);
+
+  useEffect(() => {
+    let lastScrollTop = 0; 
+
+    function handleScroll() {
+      const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+      if (scrollTop > lastScrollTop) {
+        setIsVisible(false);
+      } else {
+        setIsVisible(true);
+      }
+
+      // lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // Actualiza el scrollTop
+    }
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return (
     <header>
-      <div className='main-header'>
+      <div className={`main-header ${isVisible ? 'mostrar' : 'ocultar'}`} onMouseOver={() => setIsVisible(true)}>
         <div className='secundary-header'>
           <Branding />
           <Navigation />
