@@ -4,11 +4,12 @@
 	opacity: 1;
 	left: 0;
 	z-index: 1000;
-	transition: opacity 0.5s; 
+	transition: opacity 0.3s; 
 	min-height: 70px;
 	align-items: center;
 	background-color: var(--color-fondo);
 	color: var(--color-fuente);
+	box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
   }
   
   .main-header.ocultar {
@@ -89,13 +90,14 @@
 
 
 .menu a{
-	font-size: 18px;
+	font-size: 16px;
 	color: var(--color-fuente);
 	transition: color 0.5 ease;
 	text-decoration: none;
 	display: block;
 	text-align: center;
 	justify-items: center;
+	font-weight: bold;
 }
 
 .menu li {
@@ -122,8 +124,10 @@
 }
 
 .about-section{
+	font-size: 16px;
 	color: var(--color-fuente);
 	cursor: pointer;
+	font-weight: bold;
 }
 
 
@@ -199,10 +203,11 @@
 }
 
 .menu li:hover a {
+	
 	color: #fff;
 }
 
 .menu .about-section:hover{
-	background-color: #fff;
+	background-color: #aca2a2;
 	color: var(--color-fuente-oscuro);
 }

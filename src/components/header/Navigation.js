@@ -24,7 +24,7 @@ function Navigation() {
       document.documentElement.style.setProperty('--color-fuente', '#fff');
       document.documentElement.style.setProperty('--color-icono', 'brightness(0) invert(1)');
     } else {
-      document.documentElement.style.setProperty('--color-fondo', '#ddddd9');
+      document.documentElement.style.setProperty('--color-fondo', '#fff');
       document.documentElement.style.setProperty('--color-fuente', '#000');
       document.documentElement.style.setProperty('--color-icono', 'brightness(0) invert(0)');
     }
