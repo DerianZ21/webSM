@@ -87,6 +87,6 @@
 
     .main-description .slick-slider{
         margin: auto;
-        width: 400px;
+        max-width: 350px;
      }
 }

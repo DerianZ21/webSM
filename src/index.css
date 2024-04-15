@@ -28,3 +28,7 @@ code {
   
   --color-representativo: #9e0b0b;
 }
+
+:root {
+  font-size: clamp(14px, 2vw, 18px);
+}

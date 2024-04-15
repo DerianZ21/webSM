@@ -1,6 +1,6 @@
 import React from "react";
 import '../../styles/home/extra.css'
-import fondoExtra from '../../assets/images/nuestras/fondo-inicio.webp';
+import fondoExtra from '../../assets/images/nuestras/fondo-extra.webp';
 import tecnologia from '../../assets/images/icon/tecnologia.svg';
 import grabacion from '../../assets/images/icon/grabacion.svg';
 import monitorizacion from '../../assets/images/icon/seguro.svg';
@@ -13,9 +13,12 @@ function Extra() {
         <div className="main-extra">
             <div className="img-extra">
                 <img className="img-fondo-extra img1" src={fondoExtra} alt="imagen de monitoreo"></img>
-                <img className="img-fondo-extra img2" src={fondoExtra} alt="imagen de monitoreo"></img>
             </div>
             <div className="contenedor-info-extra">
+                <div className="encabezado-extra">
+                    <h1>SISTEMA DE CONTROL</h1>
+                    <h2>Seguridad - Control - Seguimiento</h2>
+                </div>
                 <div className="content-centrado">
                     <div className="info-extra">
                         <img src={tecnologia} className="img-info-extra" alt=""></img>
