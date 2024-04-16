@@ -18,7 +18,7 @@ function About() {
 
   return (
     <div id='main-about' className='main-about'>
-      
+      <div className='info about'></div>
     </div>
   );
 }

@@ -1,0 +1,105 @@
+.main-tecnologias {
+    background-color: var(--color-fondo);
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 100px 0;
+}
+
+.content-tecnologia {
+    position: relative;
+    height: 450px;
+    width: 450px;
+    background-color: #0000005b;
+    transition: all 0.5s ease;
+    border-radius: 30px;
+    display: grid;
+    place-items: center;
+
+}
+
+.content-tecnologia .info-tecnologia {
+    transition: all 0.5s ease;
+    display: none;
+
+}
+
+.content-tecnologia .img-tecnologia {
+    margin: auto;
+    width: 90%;
+    height: 90%;
+    transition: all 0.5s ease;
+    border-radius: 10px;
+}
+
+.iconos-tecnologia img {
+    transition: all 0.5s ease;
+    width: 80px
+}
+
+.info-tecnologia {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.iconos-tecnologia {
+    display: flex;
+    justify-content: space-around;
+}
+
+/*------------hover---------------*/
+
+
+.content-tecnologia:hover .img-tecnologia {
+
+    position: absolute;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+    border-radius: 30px;
+}
+
+.content-tecnologia:hover .info-tecnologia {
+    display: block;
+}
+
+.content-tecnologia:hover {
+    background-color: #000000;
+}
+
+.content-tecnologia:hover .iconos-tecnologia img {
+    filter: var(--color-icono-claro);
+}
+
+.content-tecnologia:hover .info-tecnologia p {
+    color: var(--color-fuente-claro);
+}
+
+@media (max-width: 900px) {
+
+    .main-tecnologias {
+        gap: 40px;
+    }
+}
+
+
+
+@media (max-width: 450px) {
+
+    .content-tecnologia {
+        height: 350px;
+        width: 350px;
+    }
+
+    .main-tecnologias {
+        gap: 20px;
+    }
+
+
+}

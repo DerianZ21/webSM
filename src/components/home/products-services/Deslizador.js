@@ -3,6 +3,15 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import incendios from '../../../assets/images/funciones/deteccion-incendios.png'
+import alarma from '../../../assets/images/funciones/sistema-alarma.png'
+import cerco from '../../../assets/images/funciones/cerco-electrico.png'
+import acceso from '../../../assets/images/funciones/control-acceso.png'
+import vehicular from '../../../assets/images/funciones/control-vehicular2.webp'
+import iconAlarma from '../../../assets/images/icon/alarma.png'
+import iconVehicular from '../../../assets/images/icon/vehiculo.png'
+import iconAcceso from '../../../assets/images/icon/acceso.png'
+import iconIncendios from '../../../assets/images/icon/fuego.png'
+import iconCerco from '../../../assets/images/icon/cerco.png'
 
 function Deslizador() {
 
@@ -10,29 +19,34 @@ function Deslizador() {
     {
       id: "Sistema de alarma",
       descripcion: "SISTEMA DE ALARMAS",
-      ruta: incendios,
+      ruta: alarma,
+      icon: iconAlarma,
     },
 
     {
       id: "Cerco electrico",
       descripcion: "CERCO ELÉCTRICO",
-      ruta: incendios,
+      ruta: cerco,
+      icon: iconCerco,
     },
 
     {
       id: "Control acceso",
       descripcion: "CONTROL DE ACCESO",
-      ruta: incendios,
+      ruta: acceso,
+      icon: iconAcceso,
     },
     {
       id: "Control vehicular",
       descripcion: "SISTEMA DE CONTROL VEHICULAR",
-      ruta: incendios,
+      ruta: vehicular,
+      icon: iconVehicular,
     },
     {
       id: "Control de Incendios",
       descripcion: "DETECCIÓN Y EXTINCIÓN DE INCENDIOS",
       ruta: incendios,
+      icon: iconIncendios,
     }
   ];
 
@@ -50,7 +64,8 @@ function Deslizador() {
   const settingsCarousel = {
     dots: false,
     infinite: true,
-    slidesToShow: 3,
+    centerMode: true,
+    slidesToShow: 1,
     slidesToScroll: 1,
     vertical: true,
     verticalSwiping: true,
