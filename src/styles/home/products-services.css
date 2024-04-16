@@ -1,35 +1,37 @@
-.main-products-services {
-    max-width: 1200px;
-    margin: auto;
-    
+.main-deslizador{
+    background-color: var(--color-representativo);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.main-deslizador{
-    margin: 10px auto 60px auto;
-    background-color: var(--color-representativo);
-    color:  var(--color-fuente-claro);
-    max-width: 500px;
-    border-radius: 20px;
-    height: 550px;
+.deslizador-carousel{
+    background-color: var(--color-fondo-oscuro);
+    margin: 50px 0 50px 0;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    
-    
+    justify-content: space-around;
+    width: 400px;
+    height: 450px;
+    border-radius: 30px;
 }
 
-.titulo-deslizador h1{
-    font-size: 45px;
+.sliderDeslizador{
+    transform: translateY(-40px);
 }
 
-.main-deslizador .slick-slider {
-    position: relative;
-    height: 300px;
+.deslizador-img{
+    width: 400px;
+}
+
+.deslizador-img img{
+    height: auto ;
+    width: 100%;
 }
 
 
-.main-deslizador .slick-prev,
-.main-deslizador .slick-next {
+.sliderDeslizador .slick-prev,
+.sliderDeslizador .slick-next {
     background: none;
     position: absolute;
     top: auto;
@@ -38,135 +40,10 @@
     z-index: 1;
 }
 
-.main-deslizador .slick-prev {
+.sliderDeslizador .slick-prev {
     bottom: 100%;
 }
 
-.main-deslizador .slick-next {
-    top: 110%;
-}
-
-.main-deslizador .slick-slide div{
-    max-width: 400px;
-    margin: 7.5px auto 7.5px auto;
-}
-
-
-
-.itemPS{
-    margin: 15px;
-    background-color: inherit;
-    border-radius: 50px;
-    border: solid 2px #fff;
-}
-
-.itemPS h3{
-    font-size: 20px;
-}
-
-
-/*-------Carpsusel--------*/
-
-
-.main-carousel-PS {
-    position: relative;
-    margin: auto;
-    max-width: 1090px;
-    border-radius: 20px;
-    background-color: inherit;
-    overflow: hidden;
-}
-
-.main-carousel-PS::before {
-    position: absolute;
-    content: " ";
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: black;
-    opacity: 0.4;
-}
-
-.Carousel-products-services .SP {
-    gap: 20px;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.SP-contenedor {
-    padding-bottom: 40px;
-    width: 250px;
-    height: 250px;
-    display: flex;
-    flex-direction: column;
-    font-weight: bold;
-}
-
-.SP-contenedor img {
-    width: 100%;
-    height: 100%;
-    margin: auto;
-    object-fit: cover;
-}
-
-.SP-contenedor a {
-    margin: auto;
-    width: 85%;
-    height: 70%;
-    color: white;
-    list-style: none;
-    text-decoration: none;
-}
-
-.SP-contenedor a p {
-    width: 100%;
-}
-
-
-
-
-
-@media (max-width: 800px) {
-
-    .hr-derecha,
-    .hr-izquierda {
-        display: none;
-    }
-
-    .resumen-producto-servicio {
-        flex-direction: column;
-    }
-
-
-
-    .producto-servicio-derecha ul {
-        margin-top: 0px;
-    }
-
-    .numero-producto-servicio {
-        width: 30px;
-        font-size: 28px;
-        margin: auto 10px auto 10px;
-    }
-}
-
-
-@media (max-width: 500px) {
-
-    .main-deslizador{
-        width: 300px;
-    }
-
-    .main-deslizador .slick-slide div{
-        width: 235px;
-    }
-    
-    .titulo-deslizador h1{
-        font-size: 35px;
-    }
+.sliderDeslizador .slick-next {
+    top: 100%; 
 }
