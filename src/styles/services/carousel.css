@@ -4,14 +4,14 @@
 }
 
 
-.slick-slide .img-carousel {
+.main-carousel-Services .slick-slide .img-carousel {
     margin: auto;
     display: block;
     width: 750px;
 	border-radius: 15px;
 }
 
-.slick-slide .img-carousel-nav {
+.main-carousel-Services .slick-slide .img-carousel-nav {
     margin: auto;
     display: block;
     width: 200px;
@@ -19,22 +19,19 @@
 }
 
 
-.slick-dots li button:before{
+.main-carousel-Services .slick-dots li button:before{
     color: #ac6868 ;
     font-size: 10px;
 }
 
-.slick-dots li.slick-active button:before {
-    color:#fff;
-}
 
-.slick-prev,
-.slick-next {
-  background-color: #ddd; /* Fondo gris */
-  border-radius: 50%; /* Forma circular */
-  width: 40px; /* Ancho fijo */
-  height: 40px; /* Altura fija */
-  color: black; /* Color de la flecha */
+.main-carousel-Services .slick-prev,
+.main-carousel-Services .slick-next {
+  background-color: #ddd; 
+  border-radius: 50%; 
+  width: 40px; 
+  height: 40px; 
+  color: black; 
   z-index: 1;
 }
 
@@ -42,17 +39,17 @@
 
 @media (max-width: 990px) {
 
-    .slick-slider{
+    .main-carousel-Services .slick-slider{
         width: 90%;
         margin: auto;
     }
 	
-	.slick-slide{
+	.main-carousel-Services .slick-slide{
         border-radius: 15px;
     }
     
     
-    .slick-slide img {
+    .main-carousel-Services .slick-slide img {
         margin: auto;
         display: block;
         max-width: 90%;

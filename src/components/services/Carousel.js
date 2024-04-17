@@ -44,7 +44,7 @@ function Carousel() {
 
 
   return (
-    <div>
+    <div className='main-carousel-Services'>
       <Slider {...settingsMain}>
         <div className='content-carousel'>
           <img className='img-carousel' src={monitoreo} alt="central de monitoreo" />

@@ -37,7 +37,7 @@ function Tecnologias() {
                         <hr></hr>
                         <img src={id}></img>
                     </div>
-                    <p>Protéjete con tecnologias de autenticaciónen base a <b>codigos-QR</b>
+                    <p>Protéjete con tecnologias de autenticación en base a <b>codigos-QR</b>
                     , seguridad por <b>contraseñas</b> o <b>carnets</b> personalidados de identidad.</p>
                 </div>
             </div>
