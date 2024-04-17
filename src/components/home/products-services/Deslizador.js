@@ -63,6 +63,7 @@ function Deslizador() {
 
   const settingsCarousel = {
     dots: false,
+    centerPadding: "75px",
     infinite: true,
     centerMode: true,
     slidesToShow: 1,
