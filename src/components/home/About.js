@@ -2,6 +2,10 @@ import React from 'react';
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import '../../styles/about.css'
+import misionImg from '../../assets/images/icon/mision.png'
+import visionImg from '../../assets/images/icon/vision.png'
+import fondoAbout from '../../assets/images/fondos/fondo-about.webp'
+import infoAbout from '../../assets/images/nuestras/info-about.webp'
 
 function About() {
 
@@ -19,17 +23,34 @@ function About() {
   return (
     <div id='main-about' className='main-about'>
       <div className='info-about'>
-        <div className='fondo-info-about'></div>
-        <div className='info-texto-about'></div>
+        <img src={fondoAbout} className='fondo-info-about' alt='fondo para el about'></img>
+        <div className='texto-info-about'>
+          <div className='content-texto-about'>
+            <div>
+              <h1>IMPLEMENTAMOS SOLUCIONES TECNOLÓGICAS PARA SALVAGUARDAR TU SEGURIDAD.</h1>
+              <p>Trabajamos por el desarrollo de nuestros servicios brindadndo seguridad a nuestros clientes,
+                nuestro objetivo es asegurar la tranquilidad de nuestros clientes
+                estableciendo estandares de excelencia en servcios al cliente y tecnologías de seguridad.</p>
+            </div>
+            <img src={infoAbout}>
+            </img>
+          </div>
+        </div>
       </div>
       <div className='vision-mision'>
         <div className='mision'>
-          <img className='img-mision' alt='fondo de la misión'></img>
-          <div className='info-mision'></div>
+          <img src={misionImg} className='img-mision' alt='fondo de la misión'></img>
+          <h2>Misión</h2>
+          <p className='info-mision'>Soluciones integrales de seguridad adaptadas a las
+            necesidades de cada cliente, permitimos la gestión personalizada y
+            aseguramos la tranquilidad de nuestros clientes a través de servicios confiables.</p>
         </div>
-        <div className='visio'>
-          <img className='img-vision' alt='fondo de la visión'></img>
-          <div className='info-vision'></div>
+        <div className='vision'>
+          <img src={visionImg} className='img-vision' alt='fondo de la visión'></img>
+          <h2>Visión</h2>
+          <p className='info-vision'>Liderar la industria de los sistemas de seguridad, siendo reconocidos por nuestras soluciones
+            adaptables a las demandas del mercado, convirtiéndonos en la primera opción para
+            clientes marcando entandares en el servicio al cliente.</p>
         </div>
       </div>
     </div>

@@ -13,10 +13,10 @@ function Home() {
   return (
     <div className='main-home'>
       <Discription/>
+      <About/>
       <Extra/>
       <ProductsServices/>
       <Tecnologias/>
-      <About/>
       <Customers/>
     </div>
   );
