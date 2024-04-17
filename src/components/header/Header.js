@@ -18,7 +18,7 @@ function Header() {
         setIsVisible(true);
       }
 
-      // lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // Actualiza el scrollTop
+     lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // Actualiza el scrollTop
     }
 
     window.addEventListener('scroll', handleScroll);

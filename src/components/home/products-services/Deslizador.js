@@ -18,33 +18,33 @@ function Deslizador() {
   const listPS = [
     {
       id: "Sistema de alarma",
-      descripcion: "SISTEMA DE ALARMAS",
+      descripcion: "sistemas de alarmas",
       ruta: alarma,
       icon: iconAlarma,
     },
 
     {
       id: "Cerco electrico",
-      descripcion: "CERCO ELÉCTRICO",
+      descripcion: "cerco electrificado",
       ruta: cerco,
       icon: iconCerco,
     },
 
     {
       id: "Control acceso",
-      descripcion: "CONTROL DE ACCESO",
+      descripcion: "control de acceso",
       ruta: acceso,
       icon: iconAcceso,
     },
     {
       id: "Control vehicular",
-      descripcion: "SISTEMA DE CONTROL VEHICULAR",
+      descripcion: "sistemas de control vehicular",
       ruta: vehicular,
       icon: iconVehicular,
     },
     {
       id: "Control de Incendios",
-      descripcion: "DETECCIÓN Y EXTINCIÓN DE INCENDIOS",
+      descripcion: "sistemas de detección de incendios",
       ruta: incendios,
       icon: iconIncendios,
     }
@@ -108,7 +108,7 @@ function Deslizador() {
         <Slider className='sliderImg' {...settingsImg} asNavFor={nav1} ref={slider => (sliderRef2 = slider)}>
           {listPS.map((PSimg, index) => (
             <div className='contenedor-img-deslizador'>
-              <img className="prueba" src={PSimg.ruta} ></img>
+              <img className="prueba" src={PSimg.ruta} alt={PSimg.descripcion} ></img>
             </div>
           ))}
         </Slider>

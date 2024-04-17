@@ -24,11 +24,11 @@ function About() {
       </div>
       <div className='vision-mision'>
         <div className='mision'>
-          <img className='img-mision'></img>
+          <img className='img-mision' alt='fondo de la misión'></img>
           <div className='info-mision'></div>
         </div>
         <div className='visio'>
-          <img className='img-vision'></img>
+          <img className='img-vision' alt='fondo de la visión'></img>
           <div className='info-vision'></div>
         </div>
       </div>
