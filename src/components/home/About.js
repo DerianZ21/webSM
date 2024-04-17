@@ -18,7 +18,20 @@ function About() {
 
   return (
     <div id='main-about' className='main-about'>
-      <div className='info about'></div>
+      <div className='info-about'>
+        <div className='fondo-info-about'></div>
+        <div className='info-texto-about'></div>
+      </div>
+      <div className='vision-mision'>
+        <div className='mision'>
+          <img className='img-mision'></img>
+          <div className='info-mision'></div>
+        </div>
+        <div className='visio'>
+          <img className='img-vision'></img>
+          <div className='info-vision'></div>
+        </div>
+      </div>
     </div>
   );
 }
