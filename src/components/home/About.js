@@ -23,18 +23,15 @@ function About() {
   return (
     <div id='main-about' className='main-about'>
       <div className='info-about'>
-        <img src={fondoAbout} className='fondo-info-about' alt='fondo para el about'></img>
-        <div className='texto-info-about'>
-          <div className='content-texto-about'>
-            <div>
-              <h1>IMPLEMENTAMOS SOLUCIONES TECNOLÓGICAS PARA SALVAGUARDAR TU SEGURIDAD.</h1>
-              <p>Trabajamos por el desarrollo de nuestros servicios brindadndo seguridad a nuestros clientes,
-                nuestro objetivo es asegurar la tranquilidad de nuestros clientes
-                estableciendo estandares de excelencia en servcios al cliente y tecnologías de seguridad.</p>
-            </div>
-            <img src={infoAbout}>
-            </img>
+        <div className='content-info-about'>
+          <div className='texto-info-about'>
+            <h1>SOLUCIONES TECNOLÓGICAS PARA SALVAGUARDAR TU SEGURIDAD.</h1>
+            <p>Trabajamos por el desarrollo de nuestros servicios a nuestros clientes,
+              asegurando su tranquilidad
+              estableciendo estandares de excelencia en servcios al cliente y tecnologías de seguridad.</p>
           </div>
+          <img src={infoAbout}>
+          </img>
         </div>
       </div>
       <div className='vision-mision'>
