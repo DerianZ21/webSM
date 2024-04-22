@@ -26,14 +26,12 @@ function Header() {
   }, []);
 
   return (
-    <header>
       <div className={`main-header ${isVisible ? 'mostrar' : 'ocultar'}`} onMouseOver={() => setIsVisible(true)}>
         <div className='secundary-header'>
           <Branding />
           <Navigation />
         </div>
       </div>
-    </header>
   );
 }
 

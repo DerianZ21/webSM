@@ -6,6 +6,7 @@ function ProductsServices() {
   return (
     <div className='main-products-services'>
       <Deslizador/>
+      <h1>DISPOSITIVOS</h1>
     </div>
   );
 }

@@ -93,9 +93,6 @@ function Deslizador() {
   return (
     <div className='main-deslizador'>
       <div className='deslizador-carousel'>
-        <div className='titulo-deslizador'>
-          <h1>NUESTROS USOS</h1>
-        </div>
         <Slider className='sliderDeslizador' {...settingsCarousel} asNavFor={nav2} ref={slider => (sliderRef1 = slider)}>
           {listPS.map((PS, index) => (
             <div className='itemPS'>

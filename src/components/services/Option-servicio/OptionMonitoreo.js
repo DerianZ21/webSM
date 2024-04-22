@@ -3,6 +3,7 @@ import disponibilidad from '../../../assets/images/icon/24-7.png'
 import camara from '../../../assets/images/icon/camara.png'
 import central from '../../../assets/images/icon/central.png'
 import comunicacion from '../../../assets/images/icon/comunicacion.png'
+import infoMonitoreo from '../../../assets/images/nuestras/infoMonitoreo.png'
 
 
 function OptionMonitoreo() {
@@ -39,24 +40,8 @@ function OptionMonitoreo() {
           </div>
         </div>
         <div className='info-extra-monitoreo'>
-          <div className='monitoreo-vanguardia'>
-            <div class="texto-vanguardia">
-              <h2 >VANGUARDIA</h2>
-              <p>Utilizamos las últimas innovaciones en sistemas de seguridad para ofrecer vigilancia
-                en tiempo real, detección de intrusiones, y alarmas inmediatas.
-              </p>
-            </div>
-          </div>
-          <div className='monitoreo-personalización'>
-            <div className='monitoreo-personalizacion>'>
-              <div className='texto-personalizacion'>
-                <h2 >PERSONALIZACION</h2>
-                <p>Cada hogar y negocio es único. Por eso, ofrecemos planes personalizados que se adaptan a tus necesidades específicas,
-                  asegurando la máxima eficacia de tu sistema de seguridad.
-                </p>
-              </div>
-            </div>
-          </div>
+          
+          <img src={infoMonitoreo}></img>
         </div>
       </div>
     </div>

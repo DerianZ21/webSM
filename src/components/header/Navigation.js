@@ -46,7 +46,6 @@ function Navigation() {
           <img className='icon-menu' src={menu} alt='icon-menu'></img>
         </li>
         <li ><Link to="/">Home</Link></li>
-        <li className='about-section' onClick={goToAboutSection}><p className=''>About</p></li>
         <li ><Link to="/services">Services</Link></li>
         <li ><Link to="/contacts">Contacts</Link></li>
         <li className='contenedor-temas'>

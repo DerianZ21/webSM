@@ -11,7 +11,7 @@ function Description() {
         <img src={logo} className='logo-inicio' alt='logo'>
         </img>
         <div className='slogan-inicio'>
-          <p>PORQUE ESTAMOS SEGUROS DE LO QUE HACEMOS</p>
+          <p>"PORQUE ESTAMOS SEGUROS DE LO QUE HACEMOS"</p>
         </div>
       </div>
       <CarouselDescription />

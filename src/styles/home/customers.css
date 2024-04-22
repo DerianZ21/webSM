@@ -1,7 +1,16 @@
-.main-customers{
+.main-customers {
+    color: var(--color-fuente-claro);
+    background: rgb(0, 0, 0);
+    background: linear-gradient(45deg, #FF5016 -75% ,  var(--color-representativo) 100%);
+
     padding-top: 40px;
     max-width: 1000px;
     margin: auto;
+    border-radius: 20px 20px 0 0;
+}
+
+.main-customers H1 {
+    font-size: 60px;
 }
 
 
@@ -11,10 +20,6 @@
     flex-direction: column;
     justify-content: space-between;
     border-radius: 30px;
-}
-
-.chunk-customers h1{
-    font-size: 25px;
 }
 
 .empresas {

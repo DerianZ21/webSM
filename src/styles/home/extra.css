@@ -47,8 +47,7 @@
 .content-centrado {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    max-width: 350px;
-    gap: 40px;
+    gap: 75px;
 }
 
 .info-extra {
@@ -56,6 +55,9 @@
     flex-direction: column;
     align-items: center;
     max-width: 150px;
+    background-color: #0000000c;
+    padding: 5px;
+    border-radius: 10px;
 }
 
 .info-extra img {

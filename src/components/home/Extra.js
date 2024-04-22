@@ -23,22 +23,22 @@ function Extra() {
                     <div className="info-extra">
                         <img src={tecnologia} className="img-info-extra" alt=""></img>
                         <h3>TECNOLOGÍA</h3>
-                        <p>de alta calidad para detectar cualquier amenaza posible</p>
+                        <p>DE ALTA CALIDAD PARA DETECTAR CUALQUIER AMENAZA POSIBLE</p>
                     </div>
                     <div className="info-extra">
                         <img src={grabacion} className="img-info-extra" alt=""></img>
                         <h3>GRABACIÓN</h3>
-                        <p>y monitoreo constante desde donde desees acceder</p>
+                        <p>Y MONITOREO CONSTANTE DESDE DONDE DESEES ACCEDER</p>
                     </div>
                     <div className="info-extra">
                         <img src={monitorizacion} className="img-info-extra" alt=""></img>
                         <h3>SEGURO</h3>
-                        <p>y confiable para el cuidado de tu familia</p>
+                        <p>Y CONFIABLE PARA EL CUIDADO DE TU FAMILIA</p>
                     </div>
                     <div className="info-extra">
                         <img src={registros} className="img-info-extra" alt=""></img>
                         <h3>INFORMES</h3>
-                        <p>presisos en bitácoras electrónicas</p>
+                        <p>PRECISOS EN BITÁCORAS ELECTRÓNICAS</p>
                     </div>
                 </div>
             </div>

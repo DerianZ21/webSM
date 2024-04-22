@@ -1,6 +1,7 @@
 
 import React, { useState } from "react";
 import '../../styles/contact/formemail.css'
+import validateForm from "../../funtions/validarForm";
 
 
 function FormEmail() {
@@ -19,21 +20,28 @@ function FormEmail() {
       [name]: value,
     }));
   };
-  
+
+  const [errors, setErrors] = useState({});
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Aquí mostraríamos los datos recogidos o los enviaríamos a un servidor
-    console.log(formData);
-    // Aquí podrías resetear el formulario si lo deseas después de enviar
-    // setFormData({ name: '', email: '', subject: '', message: '' });
-  };
+    const formErrors = validateForm(formData);
+
+    if (Object.keys(formErrors).length > 0) {
+      setErrors(formErrors);
+    } else {
+      console.log(FormData);
+      setFormData({ name: '', email: '', subject: '', message: '' });
+      setErrors({});
+    };
+  }
+
 
   return (
     <div className='main-form-email'>
       <h1>Envianos un correo</h1>
       <div className="container-form">
         <form onSubmit={handleSubmit}>
-
           <div>
             <label htmlFor="name">Nombre:</label>
             <input
@@ -43,6 +51,7 @@ function FormEmail() {
               value={formData.name}
               onChange={handleChange}
             />
+            
           </div>
           <div>
             <label htmlFor="email">Correo Electrónico:</label>
@@ -53,6 +62,7 @@ function FormEmail() {
               value={formData.email}
               onChange={handleChange}
             />
+            
           </div>
           <div>
             <label htmlFor="subject">Asunto:</label>
@@ -63,6 +73,7 @@ function FormEmail() {
               value={formData.subject}
               onChange={handleChange}
             />
+            
           </div>
           <div>
             <label htmlFor="message">Mensaje:</label>
@@ -73,6 +84,10 @@ function FormEmail() {
               onChange={handleChange}
             />
           </div>
+          {errors.name && <p className="errorForm">{errors.name}</p>}
+          {errors.email && <p className="errorForm">{errors.email}</p>}
+          {errors.subject && <p className="errorForm">{errors.subject}</p>}
+          {errors.message && <p className="errorForm">{errors.message}</p>}
           <button type="submit">Enviar</button>
         </form>
       </div>

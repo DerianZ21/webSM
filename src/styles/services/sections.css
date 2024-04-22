@@ -21,7 +21,7 @@
 }
 
 .section img{
-    max-width: 190px;
+    max-width: 250px;
     border-radius: 20px;
 }
 
@@ -34,18 +34,16 @@
     justify-content: space-between;
     align-items: center;
     text-align: left;
-}
-/*
-.card-section1{
-    display: flex;
-    flex-direction: row;
+    gap: 30px;
 }
 
-.card-section2{
-    display: flex;
-    flex-direction: row-reverse;
+.section-color1{
+    background-color: #00000048;
 }
-*/
+
+.section-color2{
+    background-color: #00000010;
+}
 
 
 

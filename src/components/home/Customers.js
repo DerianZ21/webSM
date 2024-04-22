@@ -92,7 +92,7 @@ function Customers() {
 
   return (
     <div className='main-customers'>
-      <h1>MARCAS QUE CONFIAN EN NOSOTROS</h1>
+      <h1>NUESTROS CLIENTES</h1>
       <Slider {...settings}>
         {logoChunks.map((chunk, index) => (
           <div key={index} className='chunk-customers'>

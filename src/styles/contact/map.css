@@ -1,20 +1,23 @@
 .main-map{
     width: 600px;
+    height: 600px;
     align-content: center;
 }
 
-@media (max-width: 1000px) {
+@media(max-width: 600px){
     .main-map{
-        max-width: 400px;
-        margin: auto;
+        width: 400px;
+        height: 400px;
+        align-content: center;
     }
 }
 
 
-@media (max-width: 450px) {
+@media(max-width: 400px){
     .main-map{
-        max-width: 325px;
+        width: 350px;
+        height: 350px;
+        align-content: center;
     }
 }
-
 
