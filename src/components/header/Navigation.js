@@ -45,9 +45,9 @@ function Navigation() {
         <li id="menu-toggle" onClick={() => setIsMenuOpen(!isMenuOpen)}>
           <img className='icon-menu' src={menu} alt='icon-menu'></img>
         </li>
-        <li ><Link to="/">Home</Link></li>
-        <li ><Link to="/services">Services</Link></li>
-        <li ><Link to="/contacts">Contacts</Link></li>
+        <li ><Link to="/">INICIO</Link></li>
+        <li ><Link to="/services">SERVICIOS</Link></li>
+        <li ><Link to="/contacts">CONTACTOS</Link></li>
         <li className='contenedor-temas'>
           <div>
             <label>

@@ -13,7 +13,8 @@
     padding-bottom: 20PX;
 }
 
-.top-contact h1 {
+.main-contact h1 {
+    font-size: 40px;
     margin: 0;
     padding: 0;
 }

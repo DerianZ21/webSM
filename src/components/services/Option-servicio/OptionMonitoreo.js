@@ -40,7 +40,6 @@ function OptionMonitoreo() {
           </div>
         </div>
         <div className='info-extra-monitoreo'>
-          
           <img src={infoMonitoreo}></img>
         </div>
       </div>

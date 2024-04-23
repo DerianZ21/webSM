@@ -47,11 +47,12 @@
 }
 
 .info-extra-monitoreo{
-    margin: auto;
     max-width: 1000px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    align-self: center;
+}
+
+.info-extra-monitoreo img{
+    width: 100%;
 }
 
 .monitoreo-vanguardia,
@@ -298,7 +299,7 @@
     border-radius: 20px;
     width: 750px;
     height: 490px;
-    opacity: 0.7;
+    opacity: 1;
 }
 
 .info-hogar,
@@ -359,10 +360,6 @@
     .contenedor-img-apple,
     .contenedor-img-google{
         max-width:200px;
-    }
-
-    .info-extra-monitoreo{
-        flex-direction: column;
     }
 
     .lista-beneficios{

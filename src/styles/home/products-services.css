@@ -80,6 +80,59 @@
     color: var(--color-fuente-oscuro);
 }
 
+/*----------banner--------*/
+
+
+.main-bannerPS {
+    background-color:red;
+}
+
+.seccion-bannerPS {
+    background-color: blue;
+    display: flex !important;
+    flex-direction: row;
+    max-width: 1200px;
+    margin: auto;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.contenedor-img-bannerPS {
+    position: relative;
+    max-width: 600px;
+}
+
+.contenedor-img-bannerPS img {
+    
+    width: 100%;
+}
+
+
+.contenedor-img-bannerPS::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+}
+
+.contenedor-text-bannerPS {
+    width: 500px;
+}
+
+.contenedor-text-bannerPS h1,
+.contenedor-text-bannerPS p {
+    color: var(--color-fuente-claro);
+}
+
+
+
+
+
+/*----------media-----------*/
+
 @media (max-width: 1100px) {
 
     .deslizador-carousel {

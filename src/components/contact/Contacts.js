@@ -10,7 +10,7 @@ function Contacts() {
 
   return (
     <div className='main-contact'>
-      <h1>CONTACTANOS</h1>
+      <h1>CONTÁCTANOS</h1>
       <div className='top-contact'>
         <Cards />
         <Map />
