@@ -12,37 +12,43 @@ import id from '../../assets/images/icon/id.png'
 
 function Tecnologias() {
     return (
-        <div className="main-tecnologias">
-            <div className="content-tecnologia">
-                <img className="img-tecnologia" src={biometrico} alt="seguridad biométrica"></img>
-                <div className="info-tecnologia">
-                    <div className="iconos-tecnologia iconos-biometricos">
-                        <img src={ojo} alt="icono de escaner ocular"></img>
-                        <hr></hr>
-                        <img src={huella} alt="icono de escaner de huella dactilar"></img>
-                        <hr></hr>
-                        <img src={rostro} alt="icono de escaner facial"></img>
+        <div>
+            <h1>DISPOSITIVOS</h1>
+            <div className="main-tecnologias">
+
+                <div className="content-tecnologia">
+                    <img className="img-tecnologia" src={biometrico} alt="seguridad biométrica"></img>
+                    <div className="info-tecnologia">
+                        <div className="iconos-tecnologia iconos-biometricos">
+                            <img src={ojo} alt="icono de escaner ocular"></img>
+                            <hr></hr>
+                            <img src={huella} alt="icono de escaner de huella dactilar"></img>
+                            <hr></hr>
+                            <img src={rostro} alt="icono de escaner facial"></img>
+                        </div>
+                        <p>Seguridad biometrica ya sea por escaner
+                            <b> ocular</b>, de <b>huella</b> o <b>facial</b>, autentifica tus recursos en base a tus datos genéticos.</p>
                     </div>
-                    <p>Seguridad biometrica ya sea por escaner
-                        <b> ocular</b>, de <b>huella</b> o <b>facial</b>, autentifica tus recursos en base a tus datos genéticos.</p>
                 </div>
-            </div>
-            <div className="content-tecnologia">
-                <img className="img-tecnologia" alt="códigos de seguridad" src={codigo}></img>
-                <div className="info-tecnologia">
-                    <div className="iconos-tecnologia iconos-codigo">
-                        <img src={qr} alt="icono de código qr"></img>
-                        <hr></hr>
-                        <img src={contrasena} alt="icono de cádigo por contraseña"></img>
-                        <hr></hr>
-                        <img src={id} alt="icono de código por número de identificación"></img>
+                <div className="content-tecnologia">
+                    <img className="img-tecnologia" alt="códigos de seguridad" src={codigo}></img>
+                    <div className="info-tecnologia">
+                        <div className="iconos-tecnologia iconos-codigo">
+                            <img src={qr} alt="icono de código qr"></img>
+                            <hr></hr>
+                            <img src={contrasena} alt="icono de cádigo por contraseña"></img>
+                            <hr></hr>
+                            <img src={id} alt="icono de código por número de identificación"></img>
+                        </div>
+                        <p>Protéjete con tecnologias de autenticación en base a <b>codigos-QR</b>
+                            , seguridad por <b>contraseñas</b> o <b>carnets</b> personalidados de identidad.</p>
                     </div>
-                    <p>Protéjete con tecnologias de autenticación en base a <b>codigos-QR</b>
-                    , seguridad por <b>contraseñas</b> o <b>carnets</b> personalidados de identidad.</p>
                 </div>
+
             </div>
 
         </div>
+
     )
 
 }

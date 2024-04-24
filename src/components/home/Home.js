@@ -4,7 +4,7 @@ import Customers from './Customers';
 import About from './About';
 import Extra from './Extra';
 import Tecnologias from './Tecnologias';
-import ProductsServices from './products-services/ProductsServices';
+import ProductsServices from './ProductsServices';
 
 
 function Home() {

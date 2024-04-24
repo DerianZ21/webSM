@@ -2,16 +2,12 @@ import React, { useState, useEffect, useRef } from "react";
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import incendios from '../../../assets/images/funciones/deteccion-incendios.png'
-import alarma from '../../../assets/images/funciones/sistema-alarma.png'
-import cerco from '../../../assets/images/funciones/cerco-electrico.png'
-import acceso from '../../../assets/images/funciones/control-acceso.png'
-import vehicular from '../../../assets/images/funciones/control-vehicular2.webp'
-import iconAlarma from '../../../assets/images/icon/alarma.png'
-import iconVehicular from '../../../assets/images/icon/vehiculo.png'
-import iconAcceso from '../../../assets/images/icon/acceso.png'
-import iconIncendios from '../../../assets/images/icon/fuego.png'
-import iconCerco from '../../../assets/images/icon/cerco.png'
+import '../../styles/services/deslizador.css'
+import incendios from '../../assets/images/funciones/deteccion-incendios.png'
+import alarma from '../../assets/images/funciones/sistema-alarma.png'
+import cerco from '../../assets/images/funciones/cerco-electrico.png'
+import acceso from '../../assets/images/funciones/control-acceso.png'
+import vehicular from '../../assets/images/funciones/control-vehicular2.webp'
 
 function Deslizador() {
 
@@ -19,34 +15,29 @@ function Deslizador() {
     {
       id: "Sistema de alarma",
       descripcion: "sistemas de alarmas",
-      ruta: alarma,
-      icon: iconAlarma,
+      ruta: alarma
     },
 
     {
       id: "Cerco electrico",
       descripcion: "cerco electrificado",
       ruta: cerco,
-      icon: iconCerco,
     },
 
     {
       id: "Control acceso",
       descripcion: "control de acceso",
       ruta: acceso,
-      icon: iconAcceso,
     },
     {
       id: "Control vehicular",
       descripcion: "sistemas de control vehicular",
       ruta: vehicular,
-      icon: iconVehicular,
     },
     {
       id: "Control de Incendios",
       descripcion: "sistemas de detección de incendios",
       ruta: incendios,
-      icon: iconIncendios,
     }
   ];
 
