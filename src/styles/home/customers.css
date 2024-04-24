@@ -4,9 +4,8 @@
     background: linear-gradient(45deg, #FF5016 -75% ,  var(--color-representativo) 100%);
 
     padding-top: 40px;
-    max-width: 1000px;
+    max-width: 100%;
     margin: auto;
-    border-radius: 20px 20px 0 0;
 }
 
 .main-customers H1 {
@@ -34,24 +33,23 @@
     width: 150px;
     height: 150px;
     border-radius: 10px;
-    transition: all 0.5s;
+    background-color: #1818221c;
+    align-content: center;
 }
 
-.logo-empresa:hover {
-    background-color: #18182280;
-}
+    
 
-.logo-empresa a img {
-    margin: 32.5px;
-    width: 85px;
-    height: 85px;
+.logo-empresa .contenedor-logo-img img {
+    margin: auto;
+    width: 100px;
+    height: 100px;
     border-radius: 10px;
 }
 
 
 @media (max-width: 768px) {
 
-    .logo-empresa a img {
+    .logo-empresa .contenedor-logo-img img {
         margin: 12.5px;
         width: 50px;
         height: 50px;

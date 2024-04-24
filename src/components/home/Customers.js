@@ -99,9 +99,9 @@ function Customers() {
             <div className='empresas'>
               {chunk.map((logo, logoIndex) => (
                 <div key={logoIndex} className="logo-empresa">
-                  <a href={logo.link || '#'} target="_blank" rel="noopener noreferrer">
+                  <div className='contenedor-logo-img' href={logo.link || '#'} target="_blank" rel="noopener noreferrer">
                     <img src={logo.src} alt={logo.alt} />
-                  </a>
+                  </div>
                 </div>
               ))}
             </div>

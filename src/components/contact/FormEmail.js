@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import '../../styles/contact/formemail.css'
 import validateForm from "../../funtions/validarForm";
+import contact from '../../assets/images/nuestras/fondo-extra.webp'
 
 
 function FormEmail() {
@@ -41,6 +42,9 @@ function FormEmail() {
     <div className='main-form-email'>
       <h1>Envianos un correo</h1>
       <div className="container-form">
+        <div className="form-img">
+          <img src={contact}></img>
+        </div>
         <form onSubmit={handleSubmit}>
           <div>
             <label htmlFor="name">Nombre:</label>

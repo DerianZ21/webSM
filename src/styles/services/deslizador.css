@@ -5,7 +5,7 @@
   }
   
   .main-deslizador {
-    background-color: var(--color-representativo);
+    background: linear-gradient(45deg, #FF5016 -75% ,  var(--color-representativo) 100%);
     display: flex;
     justify-content: center;
     gap: 90px;

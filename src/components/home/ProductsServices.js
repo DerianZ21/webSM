@@ -2,7 +2,7 @@ import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import '../../styles/home/products-services.css' 
+import '../../styles/home/products-services.css'
 import CCTV from '../../assets/images/nuestras/sistemas-cctv.webp'
 import alarma from '../../assets/images/nuestras/sistemas-alarmas.webp'
 import cerco from '../../assets/images/nuestras/cerco-electrico.webp'
@@ -109,7 +109,7 @@ function ProductsServices() {
       {
         breakpoint: 768,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 2,
           slidesToScroll: 1,
           infinite: true,
           dots: false
@@ -118,7 +118,7 @@ function ProductsServices() {
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 1,
           slidesToScroll: 1
         }
       }
@@ -126,16 +126,17 @@ function ProductsServices() {
   };
 
   return (
-    <div className=''>
-      <Slider {...settings}>
-      
-              {groupSP.map((SP, index) => (
-                <div key={index} className="contenedor-sp">
-                  <img src={SP.url}></img>
-                  <hr></hr>
-                  <h1>{SP.descripcion}</h1>
-                </div>
-              ))}
+    <div className='main-sp'>
+      <Slider className='slider-sp' {...settings}>
+        {groupSP.map((SP, index) => (
+          <div key={index} className="contenedor-sp">
+            <div className='contenedor-img-sp'>
+              <img src={SP.url}></img>
+            </div>
+            <hr></hr>
+            <h1>{SP.descripcion}</h1>
+          </div>
+        ))}
       </Slider>
     </div>
   );

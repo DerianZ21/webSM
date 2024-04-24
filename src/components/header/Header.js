@@ -18,7 +18,7 @@ function Header() {
         setIsVisible(true);
       }
 
-     lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // Actualiza el scrollTop
+     lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // para actualiza el scrollTop
     }
 
     window.addEventListener('scroll', handleScroll);
@@ -26,12 +26,12 @@ function Header() {
   }, []);
 
   return (
-      <div className={`main-header ${isVisible ? 'mostrar' : 'ocultar'}`} onMouseOver={() => setIsVisible(true)}>
+      <header className={`main-header ${isVisible ? 'mostrar' : 'ocultar'}`} onMouseOver={() => setIsVisible(true)}>
         <div className='secundary-header'>
           <Branding />
           <Navigation />
         </div>
-      </div>
+      </header>
   );
 }
 
