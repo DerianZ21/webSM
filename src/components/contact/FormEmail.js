@@ -1,8 +1,8 @@
 
-import React, { useState } from "react";
+import React, {  useState, useEffect, useRef } from "react";
 import '../../styles/contact/formemail.css'
 import validateForm from "../../funtions/validarForm";
-import contact from '../../assets/images/nuestras/fondo-extra.webp'
+import contact from '../../assets/images/diseno/img-contactanos.webp'
 
 
 function FormEmail() {
@@ -40,60 +40,65 @@ function FormEmail() {
 
   return (
     <div className='main-form-email'>
-      <h1>Envianos un correo</h1>
-      <div className="container-form">
-        <div className="form-img">
-          <img src={contact}></img>
-        </div>
+      <h1>Envíanos un correo</h1>
+      <div className="container-form-contact">
         <form onSubmit={handleSubmit}>
-          <div>
-            <label htmlFor="name">Nombre:</label>
-            <input
-              id="name"
-              type="text"
-              name="name"
-              value={formData.name}
-              onChange={handleChange}
-            />
-            
+          <div className="form-contact-img">
+            <img src={contact}></img>
           </div>
-          <div>
-            <label htmlFor="email">Correo Electrónico:</label>
-            <input
-              id="email"
-              type="email"
-              name="email"
-              value={formData.email}
-              onChange={handleChange}
-            />
-            
+          <div className="contenedor-input-contacto">
+            <div>
+              <label htmlFor="name">Nombre:</label>
+              <input
+                id="name"
+                type="text"
+                name="name"
+                value={formData.name}
+                onChange={handleChange}
+              />
+              {errors.name && <p className="errorForm">{errors.name}</p>}
+
+            </div>
+            <div>
+              <label htmlFor="email">Correo Electrónico:</label>
+              <input
+                id="email"
+                type="email"
+                name="email"
+                value={formData.email}
+                onChange={handleChange}
+              />
+              {errors.email && <p className="errorForm">{errors.email}</p>}
+            </div>
+            <div>
+              <label htmlFor="subject">Asunto:</label>
+              <input
+                id="subject"
+                type="text"
+                name="subject"
+                value={formData.subject}
+                onChange={handleChange}
+              />
+              {errors.subject && <p className="errorForm">{errors.subject}</p>}
+
+            </div>
+            <div>
+              <label htmlFor="message">Mensaje:</label>
+              <textarea
+                id="message"
+                name="message"
+                value={formData.message}
+                onChange={handleChange}
+              />
+              {errors.message && <p className="errorForm">{errors.message}</p>}
+            </div>
+            <button type="submit">Enviar</button>
           </div>
-          <div>
-            <label htmlFor="subject">Asunto:</label>
-            <input
-              id="subject"
-              type="text"
-              name="subject"
-              value={formData.subject}
-              onChange={handleChange}
-            />
-            
-          </div>
-          <div>
-            <label htmlFor="message">Mensaje:</label>
-            <textarea
-              id="message"
-              name="message"
-              value={formData.message}
-              onChange={handleChange}
-            />
-          </div>
-          {errors.name && <p className="errorForm">{errors.name}</p>}
-          {errors.email && <p className="errorForm">{errors.email}</p>}
-          {errors.subject && <p className="errorForm">{errors.subject}</p>}
-          {errors.message && <p className="errorForm">{errors.message}</p>}
-          <button type="submit">Enviar</button>
         </form>
+        
+        
+        
+        
       </div>
     </div>
   );

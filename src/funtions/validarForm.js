@@ -17,8 +17,8 @@ function validateForm(formData) {
   
     if (!formData.message.trim()) {
       errors.message = "El mensaje es obligatorio.";
-    } else if (formData.message.trim().length < 4) {
-      errors.message = "El mensaje debe tener al menos 20 caracteres.";
+    } else if (formData.message.trim().length < 10) {
+      errors.message = "El mensaje debe tener al menos 10 caracteres.";
     }
   
     return errors;
