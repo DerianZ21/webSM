@@ -1,71 +1,76 @@
-.main-about {
-    display: flex;
-    flex-direction: column;
-    padding: 50px 0;
+
+.main-about{
+    max-width: 1200px;
+    margin: 50px auto;
+
 }
 
-.info-about {
-    position: relative;;
-    width: 100%;
-    height: 600px;
+.info-about{
+    position: relative;
+    z-index: 1;
+    background-color: #0d0d17;
+    padding: 40px;
 }
 
-.content-fondo-about {
+.info-about::before{
+    content: "";
     position: absolute;
     width: 100%;
     height: 100%;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    background-color: black;
-    overflow: cover;
+    top: 0;
+    left: 0;
+    background-image: url('../assets/images/fondos/fondo-about.webp');
+    opacity: 0.4;
+    filter: grayscale(1);
+    background-size: cover; /* Escalar la imagen para que cubra el contenedor, manteniendo la relación de aspecto */
+    background-position: center; /* Centrar la imagen dentro del contenedor */
+    background-repeat: no-repeat;
+    z-index: -1;
 }
-
-.content-fondo-about img {
-    width: 100%;
-    height: 100%;
-    opacity: 0.2;
-
-}
-
-
 
 .content-info-about {
-    position: absolute;
+    width: 80%;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    text-align: left;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    align-items: center;
+    margin: auto;
+    align-self: center;
+    background-color: #00000052;
     backdrop-filter: blur(10px);
-    background-color: #00000077;
-    padding: 20px 40px;
-    border-radius: 40px;
-    gap: 200px;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
 }
 
-.texto-info-about {
-    width: 600px;
+.texto-info-about{
+    max-width: 500px;
+    height: 300px;
     color: var(--color-fuente-claro);
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
-.texto-info-about h1 {
-    font-size: 65px;
+.texto-info-about h1,
+.texto-info-about p{
+    width: 85%;
+    padding: 0;
+    margin: 0;
 }
 
-.texto-info-about p {
-    font-size: 18px;
+.texto-info-about h1{
+    font-size: 50px;
 }
 
-
-.content-info-about img {
-    width: auto;
-    height: 380px;
-    border-radius: 20px;
+.img-info-about{
+    max-width: 300px;
 }
+
+.img-info-about img{
+    width: 100%;
+    
+}
+
+/*--------mision vision--------*/
 
 .vision-mision {
     padding: 100px 0 0 0 ;
@@ -100,62 +105,11 @@
     margin: auto;
 }
 
-@media (max-width: 1350px) {
-
-
-    .content-info-about {
-        gap: 100px;
-    }
-
-    
-    
-    .texto-info-about {
-        width: 500px;
-    }
-
-    .texto-info-about h1 {
-        font-size: 55px;
-    }
-    
-    .texto-info-about p {
-        font-size: 18px;
-    }
-
-    .content-info-about img {
-        height: 340px;
-    }
-
-}
 
 @media (max-width: 1100px) {
-    .info-about {
-        position: relative;;
-        width: 100%;
-        height: 475px;
-    }
 
     .vision-mision{
         width: 800px;
-    }
-
-    .content-info-about {
-        gap: 100px;
-    }
-    
-    .texto-info-about {
-        width: 400px;
-    }
-
-    .texto-info-about h1 {
-        font-size: 45px;
-    }
-    
-    .texto-info-about p {
-        font-size: 15px;
-    }
-
-    .content-info-about img {
-        height: 310px;
     }
 
 }
@@ -165,26 +119,6 @@
         width: 750px;
     }
 
-    .content-info-about {
-        gap: 50px;
-    }
-    
-    .texto-info-about {
-        width: 350px;
-    }
-
-    .texto-info-about h1 {
-        font-size: 40px;
-    }
-    
-    .texto-info-about p {
-        font-size: 13px;
-    }
-
-    .content-info-about img {
-        height: 290px;
-    }
-
 }
 
 
@@ -192,24 +126,6 @@
 
     .vision-mision{
         width: 325px;
-    }
-
-    .info-about{
-        height: 700px;
-    }
-
-    .content-info-about img {
-        height: 350px;
-    }
-
-    .content-info-about{
-        flex-direction: column;
-        background-color: black;
-        padding: 40px 20px;
-    }
-
-    .content-fondo-about{
-        display: none;
     }
 
     .vision-mision {
